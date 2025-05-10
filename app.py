@@ -341,8 +341,6 @@ def build_and_save_index(index_path: str = INDEX_FILE, metadata_path: str = META
         pickle.dump(valid_metadata, f)
     st.success("--- Proceso de Creación/Actualización de Índice Completado ---")
     st.balloons()
-    # Forzar recarga del FAISSIndex global si existe o recargar la página para que FAISSIndex se actualice
-    st.experimental_rerun()
 
 
 class DatasetLoader:
@@ -1188,7 +1186,7 @@ st.sidebar.header("Acciones del Índice")
 if st.sidebar.button("Construir/Actualizar Índice FAISS", help="Descarga metadatos y crea/actualiza el índice para búsqueda semántica. Puede tardar varios minutos. La página se recargará al finalizar."):
     # No se puede usar st.spinner directamente aquí si build_and_save_index usa st.progress y otros
     build_and_save_index()
-    # build_and_save_index llama a st.experimental_rerun() al final
+    
 
 
 # --- Área Principal ---
