@@ -1,0 +1,13 @@
+requests
+pandas
+numpy
+plotly
+sentence-transformers
+beautifulsoup4
+tenacity
+groq
+faiss-cpu # Usamos la versión CPU para mayor compatibilidad inicial
+google-generativeai
+streamlit
+python-dotenv # Para manejar API keys localmente
+# pickle, io, math, re, json, os, warnings son parte de la librería estándar de Python
