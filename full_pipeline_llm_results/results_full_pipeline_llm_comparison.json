@@ -1,0 +1,28 @@
+[
+    {
+        "error": "No se encontró dataset relevante"
+    },
+    {
+        "error": "No se encontró dataset relevante"
+    },
+    {
+        "error": "No se encontró dataset relevante"
+    },
+    {
+        "error": "No se encontró dataset relevante"
+    },
+    {
+        "error": "No se encontró dataset relevante"
+    },
+    {
+        "user_query": "Muestra el estado del tráfico en tiempo real",
+        "llm_provider_used": "llama3",
+        "selected_dataset_title": "Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos",
+        "dataset_id": "1_1",
+        "viz_configs_suggested_count": 0,
+        "viz_configs_generated_count": 0,
+        "viz_configs_details": [],
+        "insights_text": "I apologize, but you didn't provide a complete prompt. Please feel free to provide the complete prompt, and I'll be happy to assist you.",
+        "error": null
+    }
+]
