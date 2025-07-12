@@ -1,0 +1,1417 @@
+[
+  {
+    "id": "transferencias-corrientes-a-nivel-autonomico",
+    "title": "Transferencias corrientes a nivel autonómico",
+    "description": "Transferencias corrientes previstas que se realicen por parte de la Generalitat Valenciana para los años de 2022 a 2024"
+  },
+  {
+    "id": "rtm_etrs89",
+    "title": "RTM_ETRS89",
+    "description": "La red topográfica municipal consta de120 vértices aproximadamente, materializados en el terreno. En 2022 se ha revisado en su totalidad y se ha densificado para abarcar los nuevos desarrollos urbanísticos. A partir de este momento se actualiza anualmente.Los vértices se han observado por GNSS mediante el método estático. Comprende el término municipal. Se apoya en la infraestructura geodésica nacional mediante la red de estaciones de referencia GNSS (ERGNSS)."
+  },
+  {
+    "id": "oe_30_edu",
+    "title": "OE30 Habitantes con educación superior",
+    "description": "Habitantes en la ciudad de València, de 2017 a 2020, con educación superior.Clasificados los dos últimos años por sexo."
+  },
+  {
+    "id": "presupuesto-gastos-por-capitulos",
+    "title": "Presupuesto gastos 2023 - 2024 por capítulos",
+    "description": "Presupuesto del gasto en 2023 - 2024 por capítulos, artículos, concepto, subconcepto, subprograma y sector"
+  },
+  {
+    "id": "impuestos-presupuestos",
+    "title": "Impuestos presupuestos 2020 - 2024",
+    "description": "Información de los presupuestos anuales relativa a los distintos impuestos de 2020 a 2024"
+  },
+  {
+    "id": "anual-castellano-odsp",
+    "title": "ANUAL-CASTELLANO-ODSp",
+    "description": ""
+  },
+  {
+    "id": "presupuesto-de-gastos-por-capitulos",
+    "title": "Presupuestos de gastos por capítulos 2023 - 2024",
+    "description": "Presupuestos de gastos anuales de 2023 a 2024 disgregados por capítulos"
+  },
+  {
+    "id": "agrupacio-69-agrupacion-69",
+    "title": "Agrupació 69 / Agrupación 69",
+    "description": "Agrupación 69"
+  },
+  {
+    "id": "ambit-servicis-socials-ambito-servicios-sociales",
+    "title": "Àmbit territorial servicis socials / Ámbito territorial servicios sociales",
+    "description": "Els servicis socials de l’Ajuntament de València atenen amb un àmbit geogràfic (districte i barri). El mapa mostra les zones d’actuació dels  Centres Municipals de Servicis Socials"
+  },
+  {
+    "id": "papereres-papeleras",
+    "title": "Papereres / Papeleras",
+    "description": "Punto georreferenciado donde se sitúan las papeleras en València"
+  },
+  {
+    "id": "cooperacio-internacional-cooperacion-internacional",
+    "title": "Cooperació Internacional / Cooperación Internacional",
+    "description": "Puntos referenciados de los centros de ayuda a la cooperación internacional"
+  },
+  {
+    "id": "malaltia-mental-enfermedad-mental",
+    "title": "Malaltia Mental / Enfermedad Mental",
+    "description": "Geolocalización de centros especializados en enfermedades mentales en Valencia"
+  },
+  {
+    "id": "dades-de-lestacio-de-contaminacio-atmosferica-centre-8a",
+    "title": "Datos de la estación de contaminación atmosférica Centro (8A)",
+    "description": "Datos diarios del último mes de la estación de contaminación atmosférica Centro (8A).\r\n\r\n* Contaminante \r\n* NO. \r\n* NO2. \r\n* PM10.\r\n* NOx. \r\n* PM2,5."
+  },
+  {
+    "id": "recursos-socials-per-a-presos-i-exreclusos",
+    "title": "Recursos sociales para presos y exreclusos",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos al colectivo de presos y exreclusos\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "recursos-socials-per-a-persones-amb-trastorns-addictius",
+    "title": "Recursos sociales para personas con trastornos adictivos",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a personas con trastornos adictivos\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "recursos-socials-destinats-a-jovens",
+    "title": "Recursos sociales destinados a jóvenes",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios destinados a la juventud\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "imports-pagats-dexpedients-dajuda-a-ciutadans-en-risc-dexclusio-hidrica",
+    "title": "Importes pagados de expedientes de ayuda a ciudadanos en riesgo de exclusión hídrica",
+    "description": "El Ajuntament de València valora y tramita ayudas económicas no periódicas y de carácter extraordinario, destinadas a paliar situaciones de necesidad básica para ciudadanos en riesgo de exclusión hídrica.\r\nEste conjunto de datos publica los importes pagados de expedientes de ayuda a ciudadanos en riesgo de exclusión hídrica, con periodicidad mensual.\r\n\r\nA continuación se explica cada una de las columnas del recurso:\r\n\r\nName: Nombre del recurso.\r\n\r\nDescription: Descripción del recurso.\r\n\r\nMeasureUnit: Unidad de medida del indicador.\r\n\r\nCalculationFrequency: Frecuencia que indica cada cuanto se actualiza el indicador.\r\n\r\nKpiValue: Importe de las ayudas pagadas en el mes correspondiente.\r\n\r\nCalculationPeriod: Mes y año al que corresponde el valor indicado en KpiValue.\r\n\r\nRecvTime: Fecha en la que se actualizó el dato.\r\n\r\nLas columnas FiwareServicePath, EntityId y EntityType se corresponden con datos técnicos de la Plataforma de ciudad VLCi."
+  },
+  {
+    "id": "dades-de-lestacio-de-contaminacio-atmosferica-de-boulevar-sud-7a",
+    "title": "Datos de la estación de contaminación atmosférica de Boulevar Sur (7A)",
+    "description": "Datos diarios del último mes de la estación de contaminación atmosférica de Boulevar Sur (7A).\r\n\r\n* Contaminante \r\n* SO2. \r\n* NO. \r\n* NO2. \r\n* PM10. \r\n* Ni. \r\n* NOx. \r\n* Ozono. \r\n* As. \r\n* Pb. \r\n* BaP. \r\n* Cd."
+  },
+  {
+    "id": "superficie-cultivada-cultivos",
+    "title": "Superficie cultivada - Cultivos",
+    "description": "Superficie cultivada por hectáreas y qué cultivos en la ciudad de València.Los datos recogidos son una estimación. No tienen carácter de estadística oficial"
+  },
+  {
+    "id": "senalizacion-horizontal",
+    "title": "Señalización Horizontal",
+    "description": "Contiene información de marcas transversales (líneas de detención), aparcamientos, longitudinales (carriles de circulación), inscripciones (flechas, textos…), pasos de peatones, cebreados, ora y carril bici."
+  },
+  {
+    "id": "rebuts-impost-guals-2020-2022",
+    "title": "Recibos de las tasas de vados 2020-2024",
+    "description": "Número, por distrito y barrio, de recibos e importe clasificados según la personalidad jurídica"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-salva",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Salvador Abril Chaflán Maestro José Serrano",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Salvador Abril Chaflán Maestro José Serrano (T248676). Su ubicación exacta es: 39.4635655, -0.37060220000000754.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "registro-de-programas-de-actuacion-aislada-registre-de-programes-dactuacio-ailla",
+    "title": "Registro de Programas de Actuación Aislada / Registre de Programes d'Actuació Aïllada",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata"
+  },
+  {
+    "id": "ingresos-y-gastos-presupuestos",
+    "title": "Ingresos y gastos. Presupuestos de 2020 a 2024",
+    "description": "Ingresos y gastos previstos para los presupuestos de los años 2020 a 2024"
+  },
+  {
+    "id": "localitzacio-contenidors-piles-localizacion-contenedores-pilas",
+    "title": "Localització contenidors piles / Localización contenedores pilas",
+    "description": "Ubicación de contenedores de pilas."
+  },
+  {
+    "id": "habitatge-lliure-preu-metre-quadrat",
+    "title": "Vivienda libre (precio metro cuadrado)",
+    "description": "Precio por metro cuadrado de las viviendas libres, en las principales ciudades, en la Comunitat Valenciana y en España"
+  },
+  {
+    "id": "recursos-socials-per-a-families-menor-i-adopcions",
+    "title": "Recursos sociales para familias, menor y adopciones",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a familias, menor y adopciones\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "dades-de-lestacio-de-contaminacio-atmosferica-de-vivers-5a",
+    "title": "Datos de la estación de contaminación atmosférica de Viveros (5A)",
+    "description": "Datos diarios del último mes de la estación de contaminación atmosférica de Viveros (5A).\r\n\r\n* Contaminante \r\n* PM2.5. \r\n* SO2. \r\n* NO. \r\n* NO2. \r\n* PM10. \r\n* Ni. \r\n* NOx. \r\n* Ozono. \r\n* As. \r\n* Pb. \r\n* Cd."
+  },
+  {
+    "id": "area-prioridad-residencial",
+    "title": "Area Prioridad Residencial",
+    "description": "Contiene las áreas georreferenciadas demarcadas como Área de Prioridad Residencial."
+  },
+  {
+    "id": "presupuestos-por-politica-de-gastos",
+    "title": "Presupuestos por política de gastos 2023 - 2024",
+    "description": "Presupuestos anuales por política de gastos en los años 2023 y 2024"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-suec0",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Sueca, 61",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Sueca, 61 (T248684). Su ubicación exacta es: 39.4605601, -0.37411520000000564.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "registro-de-entidades-inscritas",
+    "title": "Registro de Entidades Inscritas",
+    "description": "El Registro municipal de entidades ciudadanas tiene por objeto permitir al Ayuntamiento conocer el número de entidades existentes en el Municipio, sus fines y su representatividad, a los efectos de posibilitar una correcta política municipal de fomento del asociacionismo vecinal. Por tanto, es independiente del Registro General de Asociaciones en el que asimismo deben figurar inscritas todas ellas. Podrán inscribirse en el Registro municipal de entidades, todas aquellas cuyo objeto sea la defensa, fomento o mejora de los intereses generales o sectoriales de los vecinos del Municipio, y sin ánimo de lucro."
+  },
+  {
+    "id": "nombre-total-dexpedients-dajuda-a-ciutadans-en-risc-dexclusio-hidrica-que-shan-o",
+    "title": "Número total de expedientes de ayuda a ciudadanos en riesgo de exclusión hídrica que se han abierto",
+    "description": "El Ajuntament de València valora y tramita ayudas económicas no periódicas y de carácter extraordinario, destinadas a paliar situaciones de necesidad básica para ciudadanos en riesgo de exclusión hídrica.\r\nEste conjunto de datos publica el número total de expedientes de ayuda a ciudadanos en riesgo de exclusión hídrica que se han abierto, con periodicidad mensual.\r\n\r\nA continuación se explica cada una de las columnas del recurso:\r\n\r\nName: Nombre del recurso.\r\n\r\nDescription: Descripción del recurso.\r\n\r\nMeasureUnit: Unidad de medida del indicador.\r\n\r\nCalculationFrequency: Frecuencia que indica cada cuanto se actualiza el indicador.\r\n\r\nKpiValue: Número de expedientes abiertos en el mes correspondiente.\r\n\r\nCalculationPeriod: Mes y año al que corresponde el valor indicado en KpiValue.\r\n\r\nRecvTime: Fecha en la que se actualizó el dato.\r\n\r\nLas columnas FiwareServicePath, EntityId y EntityType se corresponden con datos técnicos de la Plataforma de ciudad VLCi."
+  },
+  {
+    "id": "monuments-turistics-monumentos-turisticos",
+    "title": "Monuments turístics / Monumentos turísticos",
+    "description": "Localització dels monuments turístics més importants de la ciutat"
+  },
+  {
+    "id": "pib-de-la-provincia-de-valencia",
+    "title": "PIB de la provincia de Valencia",
+    "description": "Este dataset contiene los datos registrados de PIB de la provincia de Valencia para los años 2000 hasta el 2020."
+  },
+  {
+    "id": "aparcaments-no-regulats-aparcamientos-no-regulados",
+    "title": "Aparcaments no Regulats / Aparcamientos no Regulados",
+    "description": "Dades geogràfiques sobre la localització de les places d’aparcament no regulat, cordó i bateria.- Dades Alfanumèriques:-Tipus_marca: Aparcament en cordó o bateria."
+  },
+  {
+    "id": "plantilla-ayuntamiento-valencia",
+    "title": "Plantilla Ayuntamiento València",
+    "description": "Plantilla del Ayuntamiento de València por niveles y servicios"
+  },
+  {
+    "id": "oe7-consumo-de-energia-electrica-domestica",
+    "title": "OE7 Consumo de energía eléctrica doméstica",
+    "description": "Consumo de energía"
+  },
+  {
+    "id": "recursos-socials-per-a-persones-sense-sostre",
+    "title": "Recursos sociales para personas sin techo",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos al colectivo de personas sin techo\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "hoteles-en-la-ciudad-de-valencia",
+    "title": "Hoteles en la ciudad de València",
+    "description": "Número de hoteles en la ciudad de València."
+  },
+  {
+    "id": "valenbisi-2022-alquileres-y-devoluciones",
+    "title": "Valenbisi 2022 - Alquileres y devoluciones",
+    "description": "Número de préstamos y devoluciones de las bicicletas de Valenbisi durante el año 2022 y por tramo de horas"
+  },
+  {
+    "id": "hospitales",
+    "title": "Hospitales y otros centros sanitarios",
+    "description": "Localización de hospitales y otros centros sanitarios de la ciudad de València"
+  },
+  {
+    "id": "illes-amb-dades-de-poblacio-manzanas-con-datos-de-poblacion",
+    "title": "Illes / Manzanas",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de UrbanismoeInfraestructuras de Opendata"
+  },
+  {
+    "id": "obres-executades",
+    "title": "Obras ejecutadas",
+    "description": "* Datos sobre obras de urbanización ejecutadas\r\n\r\n* Datos Alfanuméricos\r\n* Título: nombre del proyecto\r\n* Ámbito: ámbito de actuación de las obras\r\n* Descripción: breve descripción de la actuación\r\n* Superficie: superficie de la intervención en metros cuadrados\r\n* Fecha de recepción: fecha del acta de recepción de las obras\r\n* Contratista: nombre de la empresa constructora\r\n* Presupuesto: presupuesto en € de las obras ejecutadas"
+  },
+  {
+    "id": "carregadors-vehicles-electrics-cargadores-vehiculos-electricos",
+    "title": "Carregadors vehicles elèctrics / Cargadores Vehiculos Electricos",
+    "description": "Ubicación, datos técnicos y disponibilidad de los cargadores eléctricos en Valencia"
+  },
+  {
+    "id": "zones-carrega-descarrega-zonas-carga-descarga",
+    "title": "Zones càrrega descàrrega / Zonas carga descarga",
+    "description": "Dades geogràfiques sobre la localització de les zones de càrrega i descàrrega"
+  },
+  {
+    "id": "rebuts-taules-i-cadires-2020-i-2022",
+    "title": "Recibos mesas y sillas 2020-2024",
+    "description": "Número de recibos e importe, clasificados por barrios y personalidad jurídica, de los años 2020 y 2022 No se incluye el año 2021 al no haberse concedido matrículas por la pandemia de la COVID"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-carle",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Carles Cervera, 34",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Carles Cervera, 34 (T248678). Su ubicación exacta es: 39.4615883, -0.3727962000000389.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "dades-de-lestacio-de-contaminacio-atmosferica-davda-franca-6a",
+    "title": "Datos de la estación de contaminación atmosférica de Avda. Francia (6A)",
+    "description": "Datos diarios del último mes de la estación de contaminación atmosférica de Avda. Francia (6A).\r\n\r\n* Contaminante \r\n* SO2. \r\n* CO. \r\n* NO. \r\n* NO2. \r\n* NOx. \r\n* Ozono. \r\n* Veloc.\r\n* PM10.\r\n* PM2,5."
+  },
+  {
+    "id": "full-500-hoja-500",
+    "title": "Full 500 / Hoja 500",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referente a la división del territorio de la ciudad de València en escala 500"
+  },
+  {
+    "id": "recursos-socials-per-a-persones-amb-discapacitat-intellectual",
+    "title": "Recursos sociales para personas con discapacidad intelectual",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a personas con discapacidad intelectual\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "discapacitat-sensorial-discapacidad-sensorial",
+    "title": "Discapacitat Sensorial / Discapacidad Sensorial",
+    "description": "Discapacidad sensorial"
+  },
+  {
+    "id": "libro-registro-edificios-llibre-registre-edificis",
+    "title": "Libro Registro Edificios / Llibre Registre Edificis",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes al libro de registros de edificios."
+  },
+  {
+    "id": "1_0",
+    "title": "Població amb manca material severa",
+    "description": "Porcentaje de la población desagregado por sexo y año con falta de material severa"
+  },
+  {
+    "id": "presupuestos-de-organismos-autonomos",
+    "title": "Presupuestos de organismos autónomos 2022 - 2024",
+    "description": "Presupuestos relativos a los organismos autónomos de 2022 a 2024"
+  },
+  {
+    "id": "zonas-verdes",
+    "title": "Zonas Verdes (Planificación)",
+    "description": "Localización de lugares planificados para la creación de jardines y espacios verdes en la ciudad de València"
+  },
+  {
+    "id": "oe_29_muertes_cardiov",
+    "title": "OE29 Muertes por enfermedades cardiovasculares",
+    "description": "Defunciones en la ciudad de València por cada 100.000 habitantes atribuidas a enfermedades del sistema circulatorio"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-suec2",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Sueca Esq. Denia",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Sueca Esq. Denia (T248652). Su ubicación exacta es: 39.4628376, -0.37588849999997365.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "zones-mobilitat-reduida-zonas-mobilidad-reducida",
+    "title": "Zones mobilitat reduïda / Zonas mobilidad reducida",
+    "description": "Información geográfica sobre zonas de movilidad reducida"
+  },
+  {
+    "id": "rutas-turismo-barrio",
+    "title": "Rutas Turismo Barrio",
+    "description": "Capas relacionadas con el tema de turismo."
+  },
+  {
+    "id": "emisiones-toneladas-de-co2-por-cada-100-habitantes",
+    "title": "OE3 Emisiones toneladas de CO2 por cada 100 habitantes",
+    "description": "Este dataset contiene las emisiones de CO2 por cada 100 habitantes desde 2009 a 2020. Si se quiere las emisiones totales de CO2 en València:Emisiones de CO2= (toneladas CO2 por cada 100hab.* Hab. totales en València)/100OJO: La población de València cambia anualmenteFuente: Oficina de Estadística del Ayuntamiento de València"
+  },
+  {
+    "id": "punts-wifi-puntos-wifi",
+    "title": "Punts Wifi / Puntos Wifi",
+    "description": "Ubicación de redes wifi públicas"
+  },
+  {
+    "id": "recursos-socials-per-a-persones-amb-malaltia-mental",
+    "title": "Recursos sociales para personas con enfermedad mental",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a personas con enfermedad mental\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "majors-mayores",
+    "title": "Majors / Mayores",
+    "description": "Punto georreferenciados de ayuda a las personas mayores"
+  },
+  {
+    "id": "colecamins",
+    "title": "Colecamins",
+    "description": "Localización de zonas colecaminos: zonas donde transitan grupos de estudiantes que caminan juntos hacia el colegio a lo largo de un recorrido seguro y supervisado."
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-cuba-",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Cuba, 3",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Cuba, 3 (T248682). Su ubicación exacta es: 39.4628861, -0.3775977000000239.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "parcelles-cadastrals-rustica-parcelas-catastrales-rustica",
+    "title": "Parcel·les cadastrals rústica / Parcelas catastrales rústica",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata"
+  },
+  {
+    "id": "oe_29_muertes_drog-alcohol",
+    "title": "OE29 Muertes a consecuencia drogas y alcohol",
+    "description": "Defunciones, en la ciudad de València, atribuidas a trastornos mentales derivados del abuso de alcohol y drogas por cada 100.000 habitantes.Datos relativos a los años 2009 a 2020 y clasificados por sexo y franja de edad."
+  },
+  {
+    "id": "bancs-en-via-publica-bancos-en-via-publica",
+    "title": "Bancs en via pública / Bancos en vía pública",
+    "description": "Este dataset contiene todos los bancos colocado por el Ayuntamiento de València, incluyendo la ubicación de cada uno y el estado de los mismos."
+  },
+  {
+    "id": "cartografia-base-quadriculacuadricula-500",
+    "title": "Cartografia Base quadricula/cuadricula 500",
+    "description": "Cuadricula 500 del término municipal de Valencia.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "addiccions-adicciones",
+    "title": "Addiccions / Adicciones",
+    "description": "Información geográfica referente a centros y asociaciones relacionadas con las adicciones"
+  },
+  {
+    "id": "xarxa-topografica-municipal-red-topografica-municipal",
+    "title": "Xarxa Topogràfica Municipal / Red Topográfica Municipal",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata."
+  },
+  {
+    "id": "discapacitat-discapacidad",
+    "title": "Discapacitat / Discapacidad",
+    "description": "Puntos georreferenciados donde se impulsan proyectos y se atiende a las personas discapacitadas"
+  },
+  {
+    "id": "superficie-urbana-per-barris",
+    "title": "Superficie urbana por barrios",
+    "description": "Superficie clasificada como SU por el PGOU 1988. En las superficies de las tablas no se incluye: La superficie de suelos transformados por planeamiento de desarrollo posteriormente a la aprobacion del PGOU y clasificados como SUNP o SUP"
+  },
+  {
+    "id": "oe_28_esperanza_vida",
+    "title": "OE28 Esperanza vida",
+    "description": "Esperanza de vida en la ciudad de València de los años 2009 a 2021  y clasificada por sexo y distrito."
+  },
+  {
+    "id": "cartografia-base-vorades-bordillos",
+    "title": "Cartografia Base Vorades / Bordillos",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a la cartografía de bordillos de la ciudad de València"
+  },
+  {
+    "id": "eixos-de-carrer-ejes-de-calle",
+    "title": "Eixos de carrer / Ejes de calle",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a ejes de calle"
+  },
+  {
+    "id": "contenidors-vidre-contenedores-vidrio",
+    "title": "Contenidors Vidre / Contenedores Vidrio",
+    "description": "Ubicación y tipología de los contenedores de vidrio en el municipio de València."
+  },
+  {
+    "id": "sentits-circulacio-sentidos-circulacion",
+    "title": "Sentits circulació / Sentidos circulacion",
+    "description": "Información geográfica referente al sentido de la circulación de las calles de València"
+  },
+  {
+    "id": "agrupacio-estandard-agrupacion-estandard",
+    "title": "Agrupació Estándard / Agrupación Estándard",
+    "description": "Agrupación estándard de zonas de la ciudad de València"
+  },
+  {
+    "id": "joventut-juventud",
+    "title": "Joventut / Juventud",
+    "description": "Información geográfica de centros y asociaciones relacionadas con actividades para la juventud."
+  },
+  {
+    "id": "recursos-socials-per-al-collectiu-de-persones-immigrants",
+    "title": "Recursos sociales para el colectivo de personas inmigrantes",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos al colectivo de personas inmigrantes\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "poblacio-en-risc-de-pobresa-io-exclusio-social-considerant-el-llindar-autonomic-",
+    "title": "Població en risc de pobresa io exclusió social considerant el llindar autonòmic de pobresa indicador AROPE",
+    "description": "% desagregados por sexo y año de la cantidad de personas en riesgo de exclusión social según el límite autonómico"
+  },
+  {
+    "id": "procesos-decidimvlc",
+    "title": "Procesos DecidimVLC - Votos de Participantes",
+    "description": "Datos de participación de la ciudadanía en cada una de las siete ediciones de DecidimVLC. Estos procesos tienen como objetivo el implicar a los residentes de València en la toma de decisiones y que se realicen proyectos que tengan impacto para la sociedad y si es posible para el medioambiente.El proceso consiste en una primera fase de propuestas en el que todos los participantes pueden exponer su proyecto. Después se somete a una fase de apoyo en el que la ciudadanía respalda los proyectos que mayor interés tienen. Aquellos proyectos que superen esta fase se someten a un análisis de viabilidad. Por último, se someten los proyectos viables a una fase de votación para escoger los proyectos que se llevarán a cabo."
+  },
+  {
+    "id": "mapa-soroll-24h-mapa-ruido-24h",
+    "title": "Mapa soroll 24h / Mapa ruido 24h",
+    "description": "Mapa de zonas de ruido de València recopilando datos de frecuencia diaria"
+  },
+  {
+    "id": "registro-de-agrupaciones-de-interes-urbanistico-registre-dagrupacions-dinteres-u",
+    "title": "Registro de Agrupaciones de Interés Urbanístico / Registre d'Agrupacions d'Interés Urbanístic",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes al registro de agrupaciones de interés urbanístico"
+  },
+  {
+    "id": "total-castellano",
+    "title": "Quejas y Sugerencias",
+    "description": "Refleja una recopilación de datos sobre las quejas y sugerencias presentadas en el Ayuntamiento de València, clasificadas por distritos y barrios, y a partir del 16 de enero de 2020"
+  },
+  {
+    "id": "districtes-policials-distritos-policiales",
+    "title": "Districtes Policials / Distritos Policiales",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a los distritos policiales"
+  },
+  {
+    "id": "agrupacio-31-agrupacion-31",
+    "title": "Agrupació 31 / Agrupación 31",
+    "description": "Agrupación 31"
+  },
+  {
+    "id": "rvvcca_d_horarios_2021-2022",
+    "title": "Datos por horas calidad aire 2021-2022",
+    "description": "Datos diarios de calidad del aire de las estacionas de la red de vigilancia de la ciudad de València. Estaciones: Avda. Francia, Bulevar Sur, Molino del Sol, Pista Silla, Politécnico, Viveros, Centro, Consellería Meteo, Nazaret Meteo, Puerto València Parámetros: PM1, PM2.5, PM10, NO, NO2, NOx, O3, SO2, CO, NH3, C7H8, C6H6, C8H10, ruido, velocidad viento, dirección del viento, temperatura, humedad relativa, presión, radiación Solar, precipitación, velocidad máxima del viento, AS, Ni, Cd, Pb, B(a)p. Font: Red Valenciana de Vigilancia y Control de la Contaminación Atmosférica"
+  },
+  {
+    "id": "rebuts-ibi-2022",
+    "title": "Recibos IBI 2021-2024",
+    "description": "Número e importe de los recibos del Impuesto de Bienes Inmuebles por distrito y barrio y según la personalidad jurídica i el tipo de actividad"
+  },
+  {
+    "id": "cartografia-base-orografia",
+    "title": "Cartografia Base Orografia",
+    "description": "Contiene la orografía del término municipal de Valencia, representada \nmediante curvas de nivel, incluyendo su método de creación, fecha y tipo\n de curva.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "1_1",
+    "title": "Població en risc de pobresa relativa considerant el llindar nacional de pobresa segons ingressos",
+    "description": "Población en riesgo de pobreza relativa"
+  },
+  {
+    "id": "contenidors-oli-usat-contenedores-aceite-usado",
+    "title": "Contenidors oli usat / Contenedores aceite usado",
+    "description": "Localización de los contenedores de aceite usado en el municipio de València."
+  },
+  {
+    "id": "minories-etniques-minorias-etnicas",
+    "title": "Minories ètniques / Minorías étnicas",
+    "description": "Localización de asociaciones relacionadas con minorías étnicas"
+  },
+  {
+    "id": "falles-fallas",
+    "title": "Falles / Fallas",
+    "description": "Ubicació monuments fallers"
+  },
+  {
+    "id": "temperatura-valencia-2018-2022",
+    "title": "Temperatura València 2018-2022",
+    "description": "Información de 2018 a 2022 diaria sobre la temperatura media, maxima y mínima de la ciudad de València."
+  },
+  {
+    "id": "registro-de-programas-de-actuacion-integrada-registre-de-programes-dactuacio-int",
+    "title": "Registro de Programas de Actuación Integrada / Registre de Programes d'Actuació Integrada",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a la localización y el registro de programas de actuación integrada"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-capel",
+    "title": "Datos diarios del sensor de ruído ubicado en el barrio de Ruzafa, en la calle Cura Femenía, 14",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Cura Femenía, 14 (T251234). Su ubicación exacta es: 39.46227, -0.3732538.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "fgv-bocas",
+    "title": "FGV Bocas",
+    "description": "Información geográfica sobre las bocas de metro y tranvía en la ciudad de València"
+  },
+  {
+    "id": "hidrants-per-als-bombers-hidrantes-para-los-bomberos",
+    "title": "Hidrants per als bombers / Hidrantes para los bomberos",
+    "description": "Xarxa d'hidrants de protecció contra incendis"
+  },
+  {
+    "id": "libro-registro-solares-libre-registre-solars",
+    "title": "Libro Registro Solares / Libre Registre Solars",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata"
+  },
+  {
+    "id": "recarrega-vehicles-electrics-recarga-vehiculos-electricos",
+    "title": "Recarrega vehicles elèctrics / Recarga vehiculos electricos",
+    "description": "Información geográfica sobre la recarga de vehículos eléctricos, en ejecución, pendientes de ejecutar y en servicio"
+  },
+  {
+    "id": "districtes-distritos",
+    "title": "Districtes / Distritos",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a distritos"
+  },
+  {
+    "id": "dades-emissions-gei-a-valencia",
+    "title": "Datos emisiones GEI en València",
+    "description": "Datos de emisiones de gases de efecto invernadero de la ciudad de Valencia, desagregados por sectores, criterios e indicadores. \r\n\r\nParámetro: CO₂ eq\r\n\r\nFonte: Climómetre (SITE)"
+  },
+  {
+    "id": "barris-policials-barrios-policiales",
+    "title": "Barris Policials / Barrios Policiales",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a barrios policiales"
+  },
+  {
+    "id": "full-1000-hoja-1000",
+    "title": "Full 1000 / Hoja 1000",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de UrbanismoeInfraestructuras de Opendata"
+  },
+  {
+    "id": "panells-informatius-paneles-informativos",
+    "title": "Panells informatius / Paneles informativos",
+    "description": "Localización de paneles informativos"
+  },
+  {
+    "id": "vehiculos-movilidad-personal-tipo-a",
+    "title": "Vehiculos Movilidad Personal Tipo A",
+    "description": "Zonas permitidas para la circulación de vehículos de movilidad personal tipo A"
+  },
+  {
+    "id": "taxis",
+    "title": "TAXIS",
+    "description": "Ubicación de paradas de taxi"
+  },
+  {
+    "id": "centros-educativos-en-valencia",
+    "title": "Centros Educativos en València",
+    "description": "Centros educativos que incluyen los centros de bachillerato, ciclos formativos, centros de educación de adultos, de educación especial, de infantil primero y segundo ciclo, de primaria, de secundaria obligatoria, centros de enseñanzas elementales y profesionales de danza y música, centros de estudios superiores de danza y música y centros de idiomas."
+  },
+  {
+    "id": "plazas-vacantes-ayuntamiento-valencia",
+    "title": "Plazas vacantes Ayuntamiento València 2023 - 2024",
+    "description": "Plazas vacantes en el Ayuntamiento de València de 2023 a 2024 por niveles y servicios. Se describen el número de plazas vacantes de las plazas asignadas a cada servicio por categorías."
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-sueca",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Sueca, 32",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Sueca, 32 (T248680). Su ubicación exacta es: 39.4613594, -0.37514680000003864.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "aparcament-per-a-motos-aparcamiento-para-motos",
+    "title": "Aparcament per a motos / Aparcamiento para motos",
+    "description": "Dades geogràfiques sobre la localització dels aparcaments per a motos Carrer: Descripció del carrer on es troba la zona d’aparcament per a motos."
+  },
+  {
+    "id": "sense-llar-sin-hogar",
+    "title": "Sense llar / Sin hogar",
+    "description": "Sin hogar"
+  },
+  {
+    "id": "pilons-extraibles-bolardos-extraibles",
+    "title": "Pilons extraïbles / Bolardos Extraibles",
+    "description": "Pilons extraïbles / Bolardos Extraibles"
+  },
+  {
+    "id": "recursos-socials-per-a-dones",
+    "title": "Recursos sociales para mujeres",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a mujeres\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "recibos_iae_2020-2024",
+    "title": "Recibos_IAE_2020-2024",
+    "description": "Número de recibos e importe del impuesto de actividades económicas por distrito y barrio. Clasificados por año, personalidad jurídica y tipo de actividad"
+  },
+  {
+    "id": "presupuesto-ingresos-por-codigo-economico",
+    "title": "Presupuesto ingresos 2023 - 2024 por código económico",
+    "description": "Ingresos previstos en el presupuesto de 2023 y 2024 clasificados por el código económico"
+  },
+  {
+    "id": "rellotges-amb-termometre-relojes-con-termometro",
+    "title": "Rellotges amb termometre / Relojes con termometro",
+    "description": "Localització dels rellotges amb termòmetre"
+  },
+  {
+    "id": "dona-mujer",
+    "title": "Dona / Mujer",
+    "description": "Localización de instituciones de ayuda a la mujer"
+  },
+  {
+    "id": "estacions-de-soroll-estaciones-de-ruido",
+    "title": "Estacions de soroll / Estaciones de ruido",
+    "description": "Localización de las estaciones de medición de ruido"
+  },
+  {
+    "id": "quiosc-once-quiosco-once",
+    "title": "Quiosc ONCE / Quiosco ONCE",
+    "description": "Datos geográficos de los quioscos de la ONCE"
+  },
+  {
+    "id": "ruta-del-patrimonio-industrial-del-grao",
+    "title": "Ruta del Patrimonio Industrial del Grao",
+    "description": "Capas relacionadas con el tema de turismo."
+  },
+  {
+    "id": "arbratge-arbolado",
+    "title": "Arbratge /Arbolado",
+    "description": "MedoAmbiente"
+  },
+  {
+    "id": "rvvcca",
+    "title": "Datos diarios calidad aire 2004-2022",
+    "description": "Datos diarios de calidad del aire de las estacionas de la red de vigilancia de la ciudad de València. Estaciones: Avda. Francia, Bulevar Sur, Molino del Sol, Pista Silla, Politécnico, Viveros, Centro, Consellería Meteo, Nazaret Meteo, Puerto València Parámetros: PM1, PM2.5, PM10, NO, NO2, NOx, O3, SO2, CO, NH3, C7H8, C6H6, C8H10, As(ng/m³), Ni(ng/m³), Cd(ng/m³), Pb(ng/m³), B(a)p(ng/m³) ruido, velocidad viento, dirección del viento, temperatura, humedad relativa, presión, radiación Solar, precipitación, velocidad máxima del viento, AS, Ni, Cd, Pb, B(a)p. Font: Red Valenciana de Vigilancia y Control de la Contaminación Atmosférica"
+  },
+  {
+    "id": "presupuesto-de-ingresos-resumen-por-articulos",
+    "title": "Presupuesto de ingresos. Resumen por artículos 2023 - 2024",
+    "description": "Presupuesto de los ingresos anuales de 2023 a 2024 resumido por artículos"
+  },
+  {
+    "id": "ruta_cabalgatareyes2023",
+    "title": "Ruta Cabalgata de Reyes 2023",
+    "description": "Recorrido de la cabalgata de los Reyes Magos en València en Enero de 2023.Dividida en la llegada de los reyes en catamarán, el recorrido de los reyes del puerto al punto de comienzo de la cabalgata y el recorrido de la cabalgata de los Reyes Magos en 2023."
+  },
+  {
+    "id": "pgou-calificacions-pgou-calificaciones",
+    "title": "PGOU - Calificacions / PGOU - Calificaciones",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a las calificaciones del plan general de ordenación urbana."
+  },
+  {
+    "id": "mapa-soroll-dia-mapa-ruido-dia",
+    "title": "Mapa soroll dia / Mapa ruido día",
+    "description": "Información geográfica referente al mapa de ruido de día"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-puert",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Puerto Rico, 21",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Puerto Rico, 21 (T248672). Su ubicación exacta es: 39.4609867, -0.3761412000000064.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "dades-de-lestacio-de-contaminacio-atmosferica-de-pista-de-silla-4a",
+    "title": "Datos de la estación de contaminación atmosférica de Pista de Silla (4A)",
+    "description": "Datos diarios del último mes de la estación de contaminación atmosférica de Pista de Silla (4A).\r\n\r\n* Contaminante \r\n* PM2,5. \r\n* PM1. \r\n* Xileno. \r\n* SO2. \r\n* CO. \r\n* NO. \r\n* NO2. \r\n* PM10. \r\n* NOx. \r\n* Ozono. \r\n* Tolueno. \r\n* Benceno. \r\n* Ruido."
+  },
+  {
+    "id": "arbratge-protegit-municipal-arbolado-protegido-municipal",
+    "title": "Arbratge Protegit Municipal / Arbolado Protegido Municipal",
+    "description": "Identificación y localización de los árboles protegidos en el municipio de València."
+  },
+  {
+    "id": "cartografia-base-construcciones-puntuals-construcciones-puntuales",
+    "title": "Cartografia Base Construcciones Puntuals / Construcciones Puntuales",
+    "description": "Contiene información sobre quioscos construidos del término municipal de Valencia, incluyendo el tipo de quiosco.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "equipamients-municipals-equipamientos-municipales",
+    "title": "Equipamients municipals / Equipamientos municipales",
+    "description": "Recolección de todas las entidades y localizaciones de los distintos servicios que existen en la ciudad de València. Este dataset ha sido obtenido a partir del apartado Infociudad de la web municipal."
+  },
+  {
+    "id": "portals-dels-carrers-portales-de-las-calles",
+    "title": "Portals dels carrers / Portales de las calles",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a los portales de las calles de la ciudad de València"
+  },
+  {
+    "id": "vivendes-proteccio-publica-vpp-viviendas-proteccion-publica-vpp",
+    "title": "Vivendes Protecció Pública (VPP) / Viviendas Protección Pública (VPP)",
+    "description": "Localització de les vivendes de protecció pública, diferenciant les que tenen licència d'obra i les que estàn finalitzades"
+  },
+  {
+    "id": "contenidors-de-roba-contenedores-de-ropa",
+    "title": "Contenidors de Roba / Contenedores de Ropa",
+    "description": "Información geográfica referente a los contenedores de ropa disponibles en la ciudad de València"
+  },
+  {
+    "id": "full-2000-hoja-2000",
+    "title": "Full 2000 / Hoja 2000",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata"
+  },
+  {
+    "id": "textos-dels-portals-dels-carrers",
+    "title": "Textos de los portales de las calles",
+    "description": "Identificación de los números de Policía.\r\n\r\n* Codvia: Código de la via.\r\n* Numportal: Numero de portal\r\n* Dupli_trip: Duplicado o triplicado.\r\n* Accesorio: Accesorio.\r\n* Descripcio: Descripcion del numero de portal.\r\n* Altura: Altura de representación en planos.\r\n* Angulo: Angulo de representación en planos."
+  },
+  {
+    "id": "intensitat-transit-trams-intensidad-trafico-tramos",
+    "title": "Intensitat transit trams / Intensidad trafico tramos",
+    "description": "Esta capa nos describe la intensidad del tráfico en las diferentes zonas de la ciudad"
+  },
+  {
+    "id": "punts-mesura-trafic-espires-electromagnetiques-puntos-medida-trafico-espiras-ele",
+    "title": "Puntos medida trafico espiras electromagneticas (TEMPORALMENTE CON ERRORES DE PROCESAMIENTO)",
+    "description": "CONJUNTO DE DATOS CON ERRORES DE PROCESAMIENTO. SE ESTÁ TRABAJANDO ACTUALMENTE EN SOLUCIONAR ESTA INCIDENCIA.Ubicación de los puntos de medida de tráfico en Valencia (espiras electromagnéticas)"
+  },
+  {
+    "id": "estats_liq_ingresos_tot_2021-22_val_clean2",
+    "title": "Estado de liquidación de ingresos",
+    "description": "Publicación que recoge, mensualmente y de manera sintética, información sobre la ejecución del presupuesto de ingresos y modificaciones de crédito"
+  },
+  {
+    "id": "oe_27_pobreza_excl",
+    "title": "OE27 Pobreza / Exclusión social",
+    "description": "Tasa de pobreza y/o exclusión social en la ciudad de València durante el período de tiempo que va de 2012 a 2020.Datos con relación al sexo y menores de 16 años."
+  },
+  {
+    "id": "oe_31_esc",
+    "title": "OE31 Tasa escolarización en edad infantil",
+    "description": "Porcentaje de población de 0 a 5 años de edad matriculada en educación infantil respecto al total de menores de 6 años empadronados en la ciudad de València."
+  },
+  {
+    "id": "eventos-navidenos0",
+    "title": "Eventos navideños",
+    "description": "Este dataset contiene los eventos navideños promocionados por el Ayuntamiento para las navidades de 2022"
+  },
+  {
+    "id": "consumo-electrico-2018-2022",
+    "title": "Consumo eléctrico 2018-2022",
+    "description": "Valor en kiloWatios / hora y en euros del consumo de electricidad en Valencia, desglosado por meses (de 2018 a 2022) , y también, desglosado en lo consumido en colegios, alumbrado público y dependencias (cantidad de energía que se necesita importar para poder abastecerse en forma de electricidad)."
+  },
+  {
+    "id": "1_",
+    "title": "Índex de Gini d'ingressos recollits en fonts tributàries",
+    "description": "Índice de Gini de ingresos recogidos en fuentes tributarias"
+  },
+  {
+    "id": "anualidades-comprometidas-gastos-y-capital",
+    "title": "Anualidades comprometidas. Gastos y capital",
+    "description": "Anualidades comprometidas del Ayuntamiento de València. Gastos y capital relacionados"
+  },
+  {
+    "id": "subvenciones-nominativas",
+    "title": "Subvenciones nominativas 2023 - 2024",
+    "description": "Subvenciones previstas de conceder en los años 2023 - 2024 por el Ayuntamiento de València, sin aplicar un proceso de selección"
+  },
+  {
+    "id": "caja_fija",
+    "title": "Anticipos de caja fija 2022-2024",
+    "description": "Tendrán la consideración de anticipos de caja fija las provisiones de fondos de carácter no presupuestario y permanente que se realizan en favor de los habilitados que proponga el Tesorero municipal, o los Servicios interesados con la conformidad del Tesorero, para la atención inmediata y posterior aplicación al Presupuesto del año en que se realizan, de gastos corrientes de carácter periódico o repetitivo, como por ejemplo dietas, gastos de locomoción, material de oficina no susceptible de inventariar, conservación y otras de similares características."
+  },
+  {
+    "id": "estructura-del-gasto-ordinario",
+    "title": "Estructura del gasto ordinario 2022 - 2024",
+    "description": "Estructura y presupuestos de los gastos ordinarios anuales de 2022 a 2024"
+  },
+  {
+    "id": "pgou-origen-pgou-origen",
+    "title": "PGOU - Origen / PGOU - Origen",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes al plan general de ordenación urbana"
+  },
+  {
+    "id": "obres-dinfraestructura-obras-de-infraestructura",
+    "title": "Obres d'infraestructura / Obras de infraestructura",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a obras de infraestructura"
+  },
+  {
+    "id": "discapacitat-fisica-discapacidad-fisica",
+    "title": "Discapacitat Física / Discapacidad Física",
+    "description": "Localización, identificación y teléfono de centros especializados en la discapacidad física"
+  },
+  {
+    "id": "proyectos-europeos",
+    "title": "Proyectos Europeos",
+    "description": "Proyectos Europeos"
+  },
+  {
+    "id": "rutas-accesibles-jardin-turia",
+    "title": "Rutas Accesibles Jardín Turia",
+    "description": "Capas relacionadas con el tema de turismo."
+  },
+  {
+    "id": "edificaciones-industriales",
+    "title": "Edificaciones Industriales",
+    "description": "Capas relacionadas con el tema de turismo."
+  },
+  {
+    "id": "fets-discriminatoris-hechos-discriminatorios",
+    "title": "Fets Discriminatoris / Hechos Discriminatorios",
+    "description": "La capa contiene la localización, la fecha del suceso y el tipo de hecho de los hechos discriminatorios recogidos por el servicio de igualdad."
+  },
+  {
+    "id": "recursos-turisticos",
+    "title": "Recursos Turísticos",
+    "description": "Capas relacionadas con el tema de turismo."
+  },
+  {
+    "id": "recursos-socials-per-a-persones-amb-discapacitat-fisica",
+    "title": "Recursos sociales para personas con discapacidad física",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a personas con discapacidad física\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "recursos-socials-en-cooperacio-internacional",
+    "title": "Recursos sociales en cooperación internacional",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios destinados a la cooperación internacional al desarrollo\r\n\r\n* Descripción: Descripción del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guía de recursos sociales."
+  },
+  {
+    "id": "aparcaments-per-districtes-barris",
+    "title": "Aparcamientos por distritos-barrios",
+    "description": "Datos de los diferentes tipos y número de plazas de aparcamiento y habitantes en la ciudad de Valencia, desagregados por distritos y barrios.\r\n\r\nParámetros: Número plazas aparcamiento por barrios y distritos, habitantes por barrios, habitantes por distritos, habitantes por franja de edad y distritos, turismos por distritos.\r\n\r\nFuente: MESURA"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-matia",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Matías Perelló Esq. Doctor Sumsi",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Matías Perelló Esq. Doctor Sumsi (T248679). Su ubicación exacta es: 39.4614718, -0.36814430000003995.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-docto",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Doctor Serrano, 21",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Doctor Serrano, 21 (T248669). Su ubicación exacta es: 39.4626872, -0.3737806999999975.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "recursos-socials-per-a-persones-amb-discapacitat",
+    "title": "Recursos sociales para personas con discapacidad",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a personas con discapacidad\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "presupuesto-por-area-de-gasto",
+    "title": "Presupuesto por área de gastos 2023 - 2024",
+    "description": "Presupuesto anual dividido por área de gastos de 2023 a 2024"
+  },
+  {
+    "id": "ambitos-de-fomento-de-la-edificacion-ambits-de-foment-de-ledificacio",
+    "title": "Ámbitos de Fomento de la Edificación / Àmbits de Foment de l'Edificació",
+    "description": "Información geográfica referente al ámbito de fomento de la edificación"
+  },
+  {
+    "id": "nombre-total-dexpedients-dajuda-a-ciutadans-en-risc-dexclusio-hidrica-que-shan-r",
+    "title": "Número total de expedientes de ayuda a ciudadanos en riesgo de exclusión hídrica que se han resuelto",
+    "description": "El Ajuntament de València valora y tramita ayudas económicas no periódicas y de carácter extraordinario, destinadas a paliar situaciones de necesidad básica para ciudadanos en riesgo de exclusión hídrica.\r\nEste conjunto de datos publica el número total de expedientes de ayuda a ciudadanos en riesgo de exclusión hídrica que han sido resueltos, con periodicidad mensual.\r\n\r\nA continuación se explica cada una de las columnas del recurso:\r\n\r\nName: Nombre del recurso.\r\n\r\nDescription: Descripción del recurso.\r\n\r\nMeasureUnit: Unidad de medida del indicador.\r\n\r\nCalculationFrequency: Frecuencia que indica cada cuanto se actualiza el indicador.\r\n\r\nKpiValue: Número de expedientes resueltos en el mes correspondiente.\r\n\r\nCalculationPeriod: Mes y año al que corresponde el valor indicado en KpiValue.\r\n\r\nRecvTime: Fecha en la que se actualizó el dato.\r\n\r\nLas columnas FiwareServicePath, EntityId y EntityType se corresponden con datos técnicos de la Plataforma de ciudad VLCi."
+  },
+  {
+    "id": "dades-de-lestacio-de-contaminacio-atmosferica-duniversitat-politecnica-1a",
+    "title": "Datos de la estación de contaminación atmosférica de Universidad Politécnica (1A)",
+    "description": "Datos diarios del último mes de la estación de contaminación atmosférica de Universidad Politécnica (1A).\r\n\r\n* Contaminante \r\n* PM2.5. \r\n* PM1. \r\n* SO2. \r\n* NO. \r\n* NO2. \r\n* PM10. \r\n* NOx. \r\n* Ozono."
+  },
+  {
+    "id": "pgou-alineacions-pgou-alineaciones",
+    "title": "PGOU - Alineacions / PGOU - Alineaciones",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a las alineaciones del Plan General de Ordenación Urbana"
+  },
+  {
+    "id": "recursos-socials-per-a-persones-amb-discapacitat-sensorial",
+    "title": "Recursos sociales para personas con discapacidad sensorial",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a personas con discapacidad sensorial\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "politica-de-gasto-presupuesto",
+    "title": "Política de gasto presupuesto 2023 - 2024",
+    "description": "Política de gasto en el presupuesto de 2023 a 2024 distribuida por capítulos"
+  },
+  {
+    "id": "pago_medio_proveedores_2018-2024",
+    "title": "Pago medio proveedores 2018-2024",
+    "description": "Pago medio a proveedores del Ayuntamiento de València y de sus organismos y entidades dependientes o participadas"
+  },
+  {
+    "id": "dosimetria_pasiva_feb-2017-nov-2022",
+    "title": "Dosimetría pasiva",
+    "description": "Datos medianos de NO2 de campañas trimestrales en muestreos de 14 días con dosimetría pasiva en la ciudad de València, colegios, Colecamí, V30, Puerto, Viejo lecho Riu Turia, Albalat, Eje Museros, Godella desde febrero de 2018 hasta noviembre de 2022 (excepto ciudad de València desde febrero 2017) Parámetro: NO2 (µg/m³). Font: MESURA"
+  },
+  {
+    "id": "niveles-y-servicios-rrcc",
+    "title": "Niveles y servicios RRCC 2023 - 2024",
+    "description": "Niveles de los distintos servicios del Ayuntamiento de València por año registrados en RRCC. Se describen las plazas por categorías asignadas a cada servicio."
+  },
+  {
+    "id": "mobiliari-informatiu-mobiliario-informativo",
+    "title": "Mobiliari informatiu / Mobiliario informativo",
+    "description": "Contiene la información del mobiliario informativo como son los carteles publicitarios, de eventos y del ayuntamiento."
+  },
+  {
+    "id": "itinerarios-ciclistas-itineraris-ciclistes",
+    "title": "Itinerarios Ciclistas / Itineraris Ciclistes",
+    "description": "Información geográfica de CarrilBici y Ciclocalle"
+  },
+  {
+    "id": "reguladors-grups-semaforics-reguladores-grupos-semaforicos",
+    "title": "Reguladors grups semafòrics / Reguladores grupos semaforicos",
+    "description": "Dades geogràfiques sobre la localització dels reguladors dels grups semafòrics, indicant si gestionen semàfors de led o halògens"
+  },
+  {
+    "id": "mupis-ocoval",
+    "title": "Mupis OCOVAL",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a soportes publicitarios de la Ordenanza de Zanjas y Catas"
+  },
+  {
+    "id": "estacionament-nocturn-permes-bus-estacionamiento-nocturno-permitido-bus",
+    "title": "Estacionament Nocturn Permés BUS / Estacionamiento Nocturno Permitido BUS",
+    "description": "Información geográfica del estacionamiento nocturno permitido para los buses"
+  },
+  {
+    "id": "estacions-rodalia-valencia-val",
+    "title": "Estacions de rodalia a València",
+    "description": "Ubicació de les estacions de rodalies a la província de València"
+  },
+  {
+    "id": "transferencias-corrientes",
+    "title": "Transferencias corrientes",
+    "description": "Valor de las transferencias corrientes en los presupuestos de 2022 a 2024"
+  },
+  {
+    "id": "parcelles-cadastrals-de-rustica-amb-fitxa-urbanistica",
+    "title": "Parcelas catastrales de rústica con ficha urbanística",
+    "description": "Parcelas catastrales de rustica  con ficha urbanística.\r\n\r\n* Poligono: Polígono catastral.\r\n* Parcela: Parcela catastral.\r\n* Refparcela: Referencia catastral.\r\n* url: URL de acceso a la ficha de catastro.\r\n* ficha_es: ficha de circunstancias urbanisticas en castellano \r\n* ficha_va:ficha de circunstancias urbanisticas en valenciano"
+  },
+  {
+    "id": "expedientes_derecho_acceso_-cas-nuevo-v2",
+    "title": "Expedientes derecho acceso",
+    "description": "Expedientes de acceso a la información"
+  },
+  {
+    "id": "innovacio-social-innovacion-social",
+    "title": "Innovació Social / Innovacion Social",
+    "description": "Ubicación y descripción de los proyectos de innovación social en el municipio de Valencia."
+  },
+  {
+    "id": "ratio-p80p20-en-desigualtat-d-ingressos-recollits-en-fonts-tributaries",
+    "title": "Ràtio P80P20 en desigualtat d'ingressos recollits en fonts tributàries",
+    "description": "Ratio P80P20 en desigualdad de ingresos en fuentes tributarias"
+  },
+  {
+    "id": "migrants-migrantes",
+    "title": "Migrants / Migrantes",
+    "description": "Migrantes"
+  },
+  {
+    "id": "dataset_pasos-sanciones_mobilidad",
+    "title": "Información cuadro de mando área de prioridad residencia (APR)",
+    "description": "Datos mensuales y por cada uno de los accesos (Corona, Portal Nou, …):- Nº Pasos totales                                                   - Nº de sanciones propuestas"
+  },
+  {
+    "id": "ordenances-espais-publics-ordenanza-espacios-publicos",
+    "title": "Ordenances Espais Publics / Ordenanza Espacios Publicos",
+    "description": "Ordenanza de espacios públicos"
+  },
+  {
+    "id": "dutxes-platja-duchas-playa",
+    "title": "Dutxes platja / Duchas playa",
+    "description": "Localización de las duchas públicas existentes en las playas de la ciudad de València"
+  },
+  {
+    "id": "aparcaments-ora-aparcamientos-ora",
+    "title": "Aparcaments ORA / Aparcamientos ORA",
+    "description": "Aparcaments de l’ORATipo: Tipus d’ora, blau, taronja…"
+  },
+  {
+    "id": "zones-jocs-infantils-zona-juegos-infantiles",
+    "title": "Zones Jocs Infantils / Zona Juegos Infantiles",
+    "description": "Ubicación de parques infantiles y zonas de juegos infantiles en el municipio de València."
+  },
+  {
+    "id": "aparcaments-persones-mobilitat-reduida-aparcamientos-personas-movilidad-reducida",
+    "title": "Aparcaments persones mobilitat reduïda / Aparcamientos personas movilidad reducida",
+    "description": "Aparcaments persones mobilitat reduida.  Aparcamientos personas movilidad reducida"
+  },
+  {
+    "id": "seccions-censals-secciones-censales",
+    "title": "Seccions censals / Secciones censales",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a las secciones censales"
+  },
+  {
+    "id": "persones-privades-de-llibertat-personas-privadas-de-libertad",
+    "title": "Persones privades de llibertat / Personas privadas de libertad",
+    "description": "Centros y asociaciones relacionados con personas privadas de libertad"
+  },
+  {
+    "id": "dades-de-lestacio-de-contaminacio-atmosferica-de-moli-del-sol-3a",
+    "title": "Datos de la estación de contaminación atmosférica de Molí del Sol (3A)",
+    "description": "Datos diarios del último mes de la estación de contaminación atmosférica de Molí del Sol (3A).\r\n\r\n* Contaminante. \r\n* PM2.5. \r\n* PM1. \r\n* SO2. \r\n* CO. \r\n* NO. \r\n* NO2. \r\n* PM10.\r\n* NOx.\r\n* Ozono."
+  },
+  {
+    "id": "llavapeus-platges-lavapies-playas",
+    "title": "Llavapeus platges / Lavapies playas",
+    "description": "Dades geogràfiques sobre la localització dels llavapeus de les platges"
+  },
+  {
+    "id": "agrupacio-75-agrupacion-75",
+    "title": "Agrupació 75 / Agrupación 75",
+    "description": "Agrupación 75"
+  },
+  {
+    "id": "coste-efectivo-de-los-servicios",
+    "title": "Coste efectivo de los servicios",
+    "description": "Coste efectivo de los servicios prestados por el Ayuntamiento de València. Desde 2014 a 2023"
+  },
+  {
+    "id": "ordenances-taules-i-cadires-ordenanzas-mesas-y-sillas",
+    "title": "Ordenances Taules i Cadires / Ordenanzas Mesas y Sillas",
+    "description": "Localización de las ordenanzas de mesas y sillas"
+  },
+  {
+    "id": "perimetre-camions-perimetro-camiones",
+    "title": "Perímetre Camions / Perímetro Camiones",
+    "description": "Zona delimitada permitida para la circulación de camiones"
+  },
+  {
+    "id": "resum-de-linventari-general-de-bens-i-drets-de-la-corporacio",
+    "title": "Resumen del inventario general de bienes y derechos de la corporación",
+    "description": "Contiene el número de bienes que constan de alta en el Inventario a fecha de la última rectificación aprobada relacionados por Epígrafes y Relaciones.\r\n\r\n* Nombres de las columnas del CSV y descripción de cada una de ellas\r\n* Epígrafe: Clasificación de los bienes según su naturaleza (Reglamento de Bienes de las Entidades Locales)\r\n* Descripción: Descripción del Epígrafe \r\n* Relación: Subdivisión de los bienes dentro de cada epígrafe. \r\n* Descripción: Descripción de la Relación dentro del Epígrafe.\r\n* Num. Bienes: Número de bienes del Epígrafe/Relación que constan de alta en inventario a la fecha del supuesto."
+  },
+  {
+    "id": "financiacion-presupuestos",
+    "title": "Financiación presupuestos 2020 - 2024",
+    "description": "Origen de la financiación de los presupuestos de 2020 a 2024"
+  },
+  {
+    "id": "fgv-estacions-estaciones",
+    "title": "FGV Estacions / Estaciones",
+    "description": "Localización de las estaciones de ferrocarril de la generalidad valenciana"
+  },
+  {
+    "id": "zones-dactivitats-zonas-de-actividades",
+    "title": "Zones d'activitats / Zonas de actividades",
+    "description": "Información geográfica de las zonas de actividades"
+  },
+  {
+    "id": "mapa-soroll-nit-mapa-ruido-noche",
+    "title": "Mapa soroll nit / Mapa ruido noche",
+    "description": "Mapa de localización de ruido en horario nocturno"
+  },
+  {
+    "id": "espais-verds-espacios-verdes",
+    "title": "Espais Verds / Espacios Verdes",
+    "description": "Localización de espacios verdes en la ciudad de València"
+  },
+  {
+    "id": "programas-de-actuacion-integrada-programes-dactuacio-integrada",
+    "title": "Programas de Actuación Integrada / Programes d'Actuació Integrada",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata relacionadas con programas de actuación integrada"
+  },
+  {
+    "id": "poblacio-en-risc-de-pobresa-relativa-considerant-el-llindar-autonomic-de-pobresa",
+    "title": "Població en risc de pobresa relativa considerant el llindar autonòmic de pobresa",
+    "description": "Porcentaje de población desagregada por sexo y año que está en riesgo de pobreza según el límite autonómico"
+  },
+  {
+    "id": "cartografia-base-comunicacions-comunicaciones",
+    "title": "Cartografia Base Comunicacions / Comunicaciones",
+    "description": "Contiene información sobre las vías de comunicación del término \nmunicipal de Valencia, incluyendo su método de creación, fecha y tipo de\n vía.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "quioscs-flors-quioscos-flores",
+    "title": "Quioscs flors / Quioscos flores",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referente a la localización de quioscos de flores"
+  },
+  {
+    "id": "valenbici-2022-alquileres-por-mes-dia-hora",
+    "title": "Valenbisi 2022: Alquileres por mes-día-hora",
+    "description": "Alquileres Valenbisi durante el año 2022 por meses, días y franja horaria, con la suma de los trayectos, su duración y la duración mediana"
+  },
+  {
+    "id": "valenbisi-2022-tipo-de-abonos",
+    "title": "Valenbisi 2022 - Tipo de abonos",
+    "description": "Tipo de abono en Valenbisi durante el año 2022 clasificado por sexo y franja de edad"
+  },
+  {
+    "id": "discapacitat-intellectual-discapacidad-intelectual",
+    "title": "Discapacitat Intel·lectual / Discapacidad Intelectual",
+    "description": "Discapacidad intelectual"
+  },
+  {
+    "id": "recursos-socials-dirigits-a-majors",
+    "title": "Recursos sociales dirigidos a mayores",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a personas mayores\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "llistat-dels-carrers",
+    "title": "Listado de las calles",
+    "description": "Listado de las calles del término municipal de Valencia\r\n\r\n* Codtipovia: Tipo de la vía.\r\n* Codvia : Código de la vía.\r\n* Codviacatastro: Código de la vía para el catastro.\r\n* Nomoficial: Nombre de la vía.\r\n* Traducnooficial: Traducción de la vía."
+  },
+  {
+    "id": "apoyo-propuestas-decidimvlc",
+    "title": "Apoyo propuestas DecidimVLC",
+    "description": "Proyectos presentados en las 7 ediciones de DecidimVLC con los apoyos recibidos."
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-gener",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle General Prim Chaflán Donoso Cortés",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle General Prim Chaflán Donoso Cortés (T248661). Su ubicación exacta es: 39.4625622, -0.370427100000029.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "oe_28_gastos_sanidad_hogar",
+    "title": "OE28 Gastos de sanidad por hogar",
+    "description": "Gastos de sanidad por hogar en la ciudad de València de 2006 a 2021"
+  },
+  {
+    "id": "cartografia-base-toponimia-toponimia",
+    "title": "Cartografia Base Toponímia / Toponimia",
+    "description": "Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "cartografia-base-edificis-edificios",
+    "title": "Cartografia Base Edificis / Edificios",
+    "description": "Contiene información sobre la fachada de los edificios de cada manzana \ndel término municipal de Valencia, incluyendo su método de creación y \nfecha.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "contenidors-residus-solids-contenidores-residuos-solidos",
+    "title": "Contenidors residus sòlids / Contenidores residuos sólidos",
+    "description": "Información geográfica relacionada con los contenedores de residuos sólidos, tipo de contenedor, tipo de carga y empresa responsable"
+  },
+  {
+    "id": "presupuestos-de-gastos-por-articulo",
+    "title": "Presupuestos de gastos por artículo 2023 - 2024",
+    "description": "Presupuestos de gastos anuales de 2023 a 2024 disgregados por artículos"
+  },
+  {
+    "id": "esperanca-de-vida-a-la-ciutat-de-valencia",
+    "title": "Esperanza de vida en la Ciudad de València",
+    "description": "Años que una persona residente en la ciudad que naciera en este momento viviría si los patrones de mortalidad a lo largo de su vida fueran iguales a los patrones de mortalidad vigentes actualmenteLos códigos de distrito tienen la relación siguiente:-d1:Ciutat vella-d2:Extramurs-d3:L'eixample-d4:Campanar-d5:La saidia-d6:El pla del real-d7:L'olivereta-d8:Patraix-d9:Jesus-d10:Cuatre carrers-d11:Poblats marítims-d12:Camins al grau-d13:Algiros-d14:Benimaclet-d15:Rascanya-d16:Benicalap-d171:Poblats del nord-d172:Poblats del nord-d173:Poblats del nord-d174:Poblats del nord-d18:Poblats de l'oest-d19:Poblats del sud"
+  },
+  {
+    "id": "cartografia-base-agrupacio-edificis-agrupacion_edificios",
+    "title": "Cartografia Base  Agrupacio Edificis / Agrupacion_Edificios",
+    "description": "Contiene las manzanas de edificios del término municipal de ValenciaSerie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "cartografia-base-punt-de-cota-puntos-de-cota",
+    "title": "Cartografia Base  Punt de Cota / Puntos de Cota",
+    "description": "Contiene información sobre puntos de cota del término municipal de Valencia, incluyendo sus coordenadas X, Y, Z.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "estat-de-liquidacio-de-gastos",
+    "title": "Estado de liquidación de gastos",
+    "description": "Publicación que recoge, mensualmente y de manera sintética, información sobre modificación del crédito, ejecución del presupuesto de gasto y gastos de carácter plurianual"
+  },
+  {
+    "id": "zones-zas-zonas-zas",
+    "title": "Zones ZAS / Zonas ZAS",
+    "description": "Mapa de Zonas acústicamente saturadas"
+  },
+  {
+    "id": "renda-per-llar-i-persona",
+    "title": "Renta por persona y hogar",
+    "description": "Muestra diferentes tipos de rentas desde el año 2015 hasta el 2020."
+  },
+  {
+    "id": "guals-vados",
+    "title": "Guals / Vados",
+    "description": "Dades geogràfiques sobre la localització dels guals.  Numplaca: Numere de llicència de la placa.  Codactivid: Codi de l’activitat.  Codvia: Codi del carrer.  data_alta: Data d’Alta.  Numplazas: Nombre de places.  Numpol: Numere de policia.  Carrer: Descripció del carrer i numere"
+  },
+  {
+    "id": "cartografia-base-construcciones-construcciones",
+    "title": "Cartografia Base Construcciones / Construcciones",
+    "description": "Contiene información sobre obras que se realizan del término municipal \nde Valencia, incluyendo su método de creación, fecha y tipo de obra \nrealizada.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "mapa-soroll-vesprada-mapa-ruido-tarde-",
+    "title": "Mapa soroll vesprada / Mapa ruido tarde ",
+    "description": "Nivel de ruido en diferentes zonas de la ciudad de València."
+  },
+  {
+    "id": "cartografia-base-vegetacio-vegetacion",
+    "title": "Cartografia Base  Vegetació / Vegetacion",
+    "description": "Contiene información sobre la infraestructura verde del término \nmunicipal de Valencia, incluyendo su método de creación, fecha y \nelemento de la Infraestructura Verde.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-suec1",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Sueca, 2",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Sueca, 2 (T248683). Su ubicación exacta es: 39.4633107, -0.3766378000000259.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "tota-la-poblacio-toda-la-poblacion",
+    "title": "Recursos socials adreçats a tota la població / Recursos sociales dirigidos a toda la población",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a la población en general"
+  },
+  {
+    "id": "aparcaments-bicicletes-aparcamientos-bicicletas",
+    "title": "Aparcaments Bicicletes / Aparcamientos Bicicletas",
+    "description": "Aparcaments públic de bicicletes.Plazas: Número de places de bicicletesTipo: Tipus d'aparcabiciID: Identificador de l'aparcabici."
+  },
+  {
+    "id": "parcelles-cadastrals-durbana-amb-fitxa-urbanistica",
+    "title": "Parcelas catastrales de urbana con ficha urbanística",
+    "description": "Parcelas catastrales de urbana con ficha urbanística.\r\n\r\n* Refman: referencia de manzana catastral.\r\n* Refpla: Referencia de plano catastral.\r\n* Codvia: Código de la via.\r\n* Npol: Número de portal.\r\n* Dupli: Duplicado\r\n* Contrucci: Año de construcción.\r\n* antigüedad. Antigüedad\r\n* Reforma: Año de la reforma.\r\n* url: URL de acceso a la ficha de catastro.\r\n* ficha_es: ficha de circunstancias urbanisticas en castellano \r\n* ficha_va:ficha de circunstancias urbanisticas en valenciano"
+  },
+  {
+    "id": "fonts-daigua-publica-fuentes-de-agua-publica",
+    "title": "Fonts d'aigua pública / Fuentes de Agua Pública",
+    "description": "Información geográfica referente a las fuentes de agua pública"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-carl0",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Carles Cervera, Chaflán Reina Doña María",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Carles Cervera, Chaflán Reina Doña María (T248670). Su ubicación exacta es: 39.4613005, -0.37288599999999406.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-cadi0",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Cádiz, 16",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Cádiz, 16 (T248671). Su ubicación exacta es: 39.4631424, -0.3746647000000394.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "agrupacio-64-agrupacion-64",
+    "title": "Agrupació 64 / Agrupación 64",
+    "description": "Agrupación 64"
+  },
+  {
+    "id": "falles-infantils-fallas-infantiles",
+    "title": "Falles Infantils / Fallas Infantiles",
+    "description": "Ubicación de las fallas infantiles."
+  },
+  {
+    "id": "presupuesto-de-gastos",
+    "title": "Presupuesto de gastos 2022 - 2024",
+    "description": "Presupuestos divididos entre los distintos tipos de gasto del Ayuntamiento de València por año entre 2022 y 2024"
+  },
+  {
+    "id": "vulnerabilidad-por-barrios",
+    "title": "Vulnerabilidad por barrios",
+    "description": "Esta capa contiene el índice de vulnerabilidad en equipamientos, demografía, socioeconomía y global de cada uno de los barrios de la ciudad de Valencia en 2021"
+  },
+  {
+    "id": "transporte-barrios",
+    "title": "Estaciones de Transporte Público",
+    "description": "Localización de las estaciones de Transporte Público"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-cadis",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Cádiz, 3",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Cádiz, 3 (T248655). Su ubicación exacta es: 39.4640447, -0.3750515000000405.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "censo_vlc_1998-2022",
+    "title": "Censo València 1998-2022",
+    "description": "Población censada en la ciudad de València en los años que van desde 1998 hasta 2022"
+  },
+  {
+    "id": "cartografia-base-quadriculacuadricula-2000",
+    "title": "Cartografia Base quadricula/cuadricula  2000",
+    "description": "Cuadricula 1000 y 2000 del término municipal de Valencia.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "pipicans-zona-socialitzacio-canina-pipicanes-zona-socializacion-canina",
+    "title": "Pipicans - Zona Socialització Canina / Pipicanes - Zona Socialización Canina",
+    "description": "Información geográfica relacionada con los pipicanes existentes en la ciudad de València"
+  },
+  {
+    "id": "recursos-socials-per-a-minories-etniques",
+    "title": "Recursos sociales para minorías étnicas",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos al colectivo de minorías étnicas\r\n\r\n* Descripcion: Descripcion del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guia de recursos sociales."
+  },
+  {
+    "id": "oe_29_muertes_suicidio",
+    "title": "OE29 Muertes por suicidio",
+    "description": "Defunciones en la ciudad de València desde 2009 hasta 2020 atribuidas a suicidio y lesiones autoinfligidas por cada 100.000 habitantesDatos clasificados por sexo y por diferentes franjas de edad."
+  },
+  {
+    "id": "embornals-imbornales",
+    "title": "Embornals / Imbornales",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a imbornales"
+  },
+  {
+    "id": "dades-diaries-del-sensor-de-soroll-ubicat-al-barri-de-russafa-en-el-carrer-vivon",
+    "title": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa, en la calle Vivons Chaflán Cádiz",
+    "description": "Datos diarios del sensor de ruido ubicado en el barrio de Ruzafa y en concreto en la calle Vivons Chaflán Cádiz (T248677). Su ubicación exacta es: 39.4599927, -0.3721407000000454.\r\n\r\nA continuación se explica cada una de las columnas del recurso.\r\n\r\n* RecvTime: Dato proporcionado por la plataforma de ciudad VLCi. Fecha en la que se insertó el dato en la plataforma.\r\n* FiwareServicePath: Dato proporcionado por la plataforma de ciudad VLCi. Servicio de la plataforma VLCi al que pertenece el sensor.\r\n* EntityType: Dato proporcionado por la plataforma de ciudad VLCi. Tipo de entidad del sensor en la plataforma VLCi.\r\n* EntityId: Dato proporcionado por la plataforma de ciudad VLCi. Identificador único del sensor en la plataforma VLCi.\r\n* LAeq: Nivel sonoro continuo equivalente. Se define en la ISO 1996-2:2017 como el valor del nivel de presión en dBA en ponderación A de un sonido estable que en un intervalo de tiempo T posee la misma presión sonora cuadrática media que el sonido que se mide y cuyo nivel varía con el tiempo. En este caso el período establecida para este sensor es de 1 minuto. \r\n* LAeq_d: Es un indicador de ruido asociado al día, donde al día le corresponden 12 horas, en el período que se extiende desde las 7 hasta las 19 horas.\r\n* LAeq_den: índice de ruido día-tarde-noche, es utilizado para determinar la molestia vinculada a la exposición al ruido.\r\n* LAeq_e: Es un indicador del nivel sonoro durante la tarde, donde a la tarde le corresponden 4 horas, en el período que se extiende desde las 19 hasta las 23 horas.\r\n* LAeq_n: Es un indicador del nivel sonoro durante la noche, donde a la noche le corresponden 8 horas, en el período que se extiende desde las 23 hasta las 7 horas.\r\n* Dateobserved: Día al que se refieren las medidas."
+  },
+  {
+    "id": "vehiculos-movilidad-personal-tipo-b",
+    "title": "Vehiculos Movilidad Personal Tipo B",
+    "description": "Información geográfica sobre itinerarios permitidos para vehículos de movilidad personal tipo B"
+  },
+  {
+    "id": "presupuesto-de-ingresos-listado-economico",
+    "title": "Presupuesto de ingresos. Listado económico 2023 - 2024",
+    "description": "Presupuestos de los ingresos anuales de 2023 a 2024 disgregado en un listado económico"
+  },
+  {
+    "id": "cartografia-base-hidrografia",
+    "title": "Cartografia Base Hidrografia",
+    "description": "Contiene información sobre la hidrografia del término municipal de \nValencia, incluyendo su método de creación, fecha y tipo de elemento \nhidrográfico.Serie cartográfica vectorial oficial de referencia a escala 1:500, 1:1000 y 1:2000 en 2D, elaborada por la Sección de Cartografia del Servicio de Planeamiento., que representa la realidad topográfica del TM de Valencia. Es una combinación de restituciones fotogramétrica del vuelo de agosto 2018, vuelos de 2006 y mediciones GNSS. Sistema Geodésico de Referencia ETRS89, proyección UTM en el huso 30. Datum vertical: las altitudes están referidas al nivel medio del Mar Mediterráneo en Alicante. Código EPSG: 25830. Precisión planimétrica 10-50 centímetros. La base cartográfica continua está estructurada para su explotación mediante Sistemas de Información Geográfica. Los fenómenos geográficos que componen la serie se estructuran en estas 6 unidades temáticas: orografía, hidrografía, construcciones y edificaciones, redes de transporte y toponimia. Todas ellas contienen los iguientes campos: Creación: método de creación (restitución fotogramétrica, medición GNSS, digitalización ortofoto), fecha de creación (fecha de vuelo o fecha de toma de datos), escala (escala de generación de la información).Se ha seguido el modelo de datos de la BCV05 del ICV. Los fenómenos se han representado siguiendo el catálogo de fenómenos de la serie CV05. En el caso de elementos no contemplados por el modelo del BCV05, se ha ampliado el mismo generando un modelo de datos para escalas mayores que puede ser solicitado en cartoinf@valencia.es."
+  },
+  {
+    "id": "divisio-administrativa-de-les-juntes-municipals-division-administrativa-de-las-j",
+    "title": "División administrativa de las juntas municipales",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a la división administrativa de las juntas municipales"
+  },
+  {
+    "id": "estacions-de-soroll-monitoritzacio-zas-estaciones-de-ruido-monitorizacion-zas",
+    "title": "Estacions de soroll monitorització ZAS / Estaciones de ruido monitorización ZAS",
+    "description": "Localización de las estaciones de monitorización de ruido"
+  },
+  {
+    "id": "catalogo-de-datos-abiertos",
+    "title": "Catàleg de Dades Obertes / Catálogo de Datos Abiertos",
+    "description": "Listado de datasets incluidos en el catálogo de datos abiertos del ayuntamiento de València."
+  },
+  {
+    "id": "expendedors-ora-expendedores-ora",
+    "title": "Expendedors ORA / Expendedores ORA",
+    "description": "Maquinas expendedores de tickets de los aparcamientos ORA"
+  },
+  {
+    "id": "barris-barrios",
+    "title": "Barris / Barrios",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de Urbanismo e Infraestructuras de Opendata referentes a barrios"
+  },
+  {
+    "id": "asignacion-de-financiaciones",
+    "title": "Asignación de financiaciones 2020 - 2024",
+    "description": "Asignación de financiación a distintas entidades por parte del Ayuntamiento de València de 2020 a 2024"
+  },
+  {
+    "id": "rvvcca_d_horarios_2016-2020",
+    "title": "Datos por horas calidad aire 2016-2020",
+    "description": "Datos por horas de calidad del aire de las estacionas de la red de vigilancia de la ciudad de València. Estaciones: Avda. Francia, Bulevar Sur, Molino del Sol, Pista Silla, Politécnico, Viveros, Centro, Consellería Meteo, Nazaret Meteo, Puerto València Parámetros: PM1, PM2.5, PM10, NO, NO2, NOx, O3, SO2, CO, NH3, C7H8, C6H6, C8H10, ruido, velocidad viento, dirección del viento, temperatura, humedad relativa, presión, radiación Solar, precipitación, velocidad máxima del viento, AS, Ni, Cd, Pb, B(a)p. Font: Red Valenciana de Vigilancia y Control de la Contaminación Atmosférica"
+  },
+  {
+    "id": "cameres-trafic-camaras-trafico",
+    "title": "Càmeres tràfic / Cámaras trafico",
+    "description": "Càmeres de trànsit existents en la ciutat de valència.Tipo: Tipus de la càmera web de trànsit, superfície, pas inferior..Angulo: Angle de representació en el pla.Idcamara: identificador únic de la càmera.Descrip: Descripció de l’orientació de la càmera de trànsit."
+  },
+  {
+    "id": "emt",
+    "title": "EMT",
+    "description": "Información geográfica relacionada con las paradas de bus de la EMT"
+  },
+  {
+    "id": "ocupacio-via-publica-ocupacion-via-publica",
+    "title": "Ocupació via pública / Ocupación vía pública",
+    "description": "Información geográfica referente a la ocupación de la vía pública por festejos, incidencias u obras"
+  },
+  {
+    "id": "ecoparcs-mobils-ecoparques-moviles",
+    "title": "Ecoparcs Mobils / Ecoparques Moviles",
+    "description": "Ubicación, fechas y horarios de los ecoparques móviles en la ciudad de València"
+  },
+  {
+    "id": "vias",
+    "title": "Vias",
+    "description": "Contiene la capa de Geoportal referente a las vías de circulación de Valencia"
+  },
+  {
+    "id": "urinaris-urinarios",
+    "title": "Urinaris / Urinarios",
+    "description": "Ubicación de urinarios públicos"
+  },
+  {
+    "id": "recibos-ivtm-2020-al-2022",
+    "title": "Recibos IVTM 2020 al 2024",
+    "description": "Número de recibos e importe clasificados por distrito y barrio, por personalidad jurídica y por tipo de vehículo"
+  },
+  {
+    "id": "qlik_datos_imd_mobilitat_enero_2016-diciembre-2022_coord",
+    "title": "Datos IMD València desde enero 2016",
+    "description": "Datos de Intensidad Media Diaria mensual de vehículos motorizados de los días laborales de la ciudad de València desde 2016Parámetro: IMDFuente: ETRA (Ayuntamiento de València)"
+  },
+  {
+    "id": "velocitat-carrers-velocidad-calles",
+    "title": "Velocitat Carrers / Velocidad Calles",
+    "description": "Información geográfica de la velocidad límite de las calles de València. Para los campos de texto en el atributo de velocidad tienen la siguiente correspondencia:Peatonal: 0Km (no se puede circular)  Residencial: 20Km (Peatones tienen preferencia)  Ciclocalles: 30Km (Bicis tienen preferencia)"
+  },
+  {
+    "id": "passarelles-platges-pasarelas-de-playas",
+    "title": "Passarel·les platges / Pasarelas de playas",
+    "description": "Dades geogràfiques sobre la localització de les passarel·les de les platges"
+  },
+  {
+    "id": "quioscs-premsa-quioscos-prensa",
+    "title": "Quioscs premsa / Quioscos prensa",
+    "description": "Contienen las capas de información administrativa proveniente del servicio de UrbanismoeInfraestructuras de Opendata"
+  },
+  {
+    "id": "recursos-socials-per-a-persones-dependents",
+    "title": "Recursos sociales para personas dependientes",
+    "description": "Recursos sociales (administración pública, asociaciones, empresas de servicios…) en el municipio de Valencia que prestan servicios dirigidos a personas en situación de dependencia\r\n\r\n* Descripción: Descripción del recurso social.\r\n* Titularidad: Titular del recurso, si lo tiene.\r\n* idnotes: Identificador que enlaza con la guía de recursos sociales."
+  },
+  {
+    "id": "viatgers-emt-2020-2022",
+    "title": "Viajeros EMT 2020-2022",
+    "description": "Número de viejes en la EMT por título de transporte y por meses, desde enero de 2020 hasta septiembre de 2022"
+  },
+  {
+    "id": "parkings",
+    "title": "Parkings",
+    "description": "Parkings"
+  },
+  {
+    "id": "estacions-atmosferiques-estaciones-atmosfericas",
+    "title": "Estacions Atmosfèriques / Estaciones Atmosféricas",
+    "description": "Información geográfica sobre las estaciones atmosféricas"
+  },
+  {
+    "id": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "title": "Estacions contaminació atmosfèriques / Estaciones contaminación atmosféricas",
+    "description": "Ubicación de estaciones de contaminación atmosféricas."
+  },
+  {
+    "id": "punts-mesura-bicis-espires-electromagnetiques-puntos-medida-bicis-espiras-electr",
+    "title": "Puntos de medida espiras electromagneticas - bicicletas (TEMPORALMENTE CON ERRORES DE PROCESAMIENTO)",
+    "description": "CONJUNTO DE DATOS CON ERRORES DE PROCESAMIENTO. SE ESTÁ TRABAJANDO ACTUALMENTE EN SOLUCIONAR ESTA INCIDENCIA.Información geográfica de los puntos de medida de espiras electromagnéticas para bicicletas, con campos como Intensidad/hora de bicicletas y ángulo representación del sentido de la circulación en el punto de medida."
+  },
+  {
+    "id": "valenbisi-disponibilitat-valenbisi-dsiponibilidad",
+    "title": "ValenBisi Disponibilidad",
+    "description": "Estaciones de alquiler de bicicletas Valenbisi. Este dataset incluye su localización y las plazas con las que cuenta cada una, incluyendo las plazas disponibles y ocupadas. Se actualiza cada 10 minutos."
+  },
+  {
+    "id": "estat-transit-temps-real-estado-trafico-tiempo-real",
+    "title": "Estado trafico tiempo real",
+    "description": "Los datos de estado de tráfico se actualizan cada 3 minutos. En caso de que haya algún problema con la actualización de los datos aparecerá \"Sin datos\".* Idtramo: Identificador único del tramo.* Denominacion: Denominación del tramo.* Estado: Estado del tráfico en tiempo real del tramo. Los códigos de los estados del tráfico son los siguientes:* 0 Fluido* 1 Denso* 2 Congestionado* 3 Cortado* 4 Sin datos* 5 Paso inferior fluido* 6 Paso inferior denso* 7 Paso inferior congestionado* 8 Paso inferior cortado* 9 Sin datos (paso inferior)"
+  }
+]

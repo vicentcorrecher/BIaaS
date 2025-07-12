@@ -7,7 +7,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import re
 import json
-import pickle
 import io
 from typing import Dict, Any, List, Optional
 from sentence_transformers import SentenceTransformer
@@ -22,6 +21,7 @@ from google.generativeai.types import HarmCategory, HarmBlockThreshold
 from dotenv import load_dotenv
 import unicodedata
 import logging
+from pathlib import Path 
 
 # --- Configuración del Logging ---
 logging.basicConfig(level=logging.INFO,
@@ -29,9 +29,13 @@ logging.basicConfig(level=logging.INFO,
 
 # --- Configuración inicial ---
 load_dotenv()
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+INDEX_FILE = str(SCRIPT_DIR / "faiss_opendata_valencia.idx")
+METADATA_FILE = str(SCRIPT_DIR / "faiss_metadata.json")
+
 BASE_URL = "https://valencia.opendatasoft.com/api/explore/v2.1/"
-INDEX_FILE = "faiss_opendata_valencia.idx"
-METADATA_FILE = "faiss_metadata.pkl"
+CATALOG_LIST_URL = "https://valencia.opendatasoft.com/api/v2/catalog/datasets"
 EMBEDDING_MODEL = 'paraphrase-MiniLM-L6-v2'
 GOOGLE_LLM_MODEL = "gemini-1.5-flash-latest"
 LLAMA3_70B_MODEL_NAME_GROQ = "llama3-70b-8192"
@@ -102,31 +106,46 @@ def sanitize_filename(filename: str) -> str: return re.sub(r'[<>:"/\\|?*]', '_',
 
 class FAISSIndex:
     def __init__(self, index_path: str = INDEX_FILE, metadata_path: str = METADATA_FILE):
-        self.index_path = index_path; self.metadata_path = metadata_path
+        self.index_path = index_path
+        self.metadata_path = metadata_path
         self.index = None; self.metadata = []; self.load_index()
+
     def load_index(self):
         if os.path.exists(self.index_path) and os.path.exists(self.metadata_path):
-            self.index = faiss.read_index(self.index_path)
-            with open(self.metadata_path, 'rb') as f: self.metadata = pickle.load(f)
-        else: self.index = None
+            try:
+                self.index = faiss.read_index(self.index_path)
+                with open(self.metadata_path, 'r', encoding='utf-8') as f:
+                    self.metadata = json.load(f)
+                logging.info(f"Índice FAISS y metadatos JSON cargados correctamente. {self.index.ntotal} vectores.")
+            except Exception as e:
+                logging.error(f"Error al cargar índice o metadatos: {e}")
+                self.index = None
+                self.metadata = []
+        else:
+            logging.warning(f"No se encontraron los ficheros del índice en {self.index_path} o {self.metadata_path}")
+            self.index = None
+    
     def is_ready(self) -> bool: return self.index is not None and self.index.ntotal > 0
+    
     def search(self, query_embedding: np.ndarray, top_k: int = 1) -> List[Dict[str, Any]]:
         if not self.is_ready(): return []
-        norm = np.linalg.norm(query_embedding);
+        norm = np.linalg.norm(query_embedding)
         if norm == 0: return []
         query_embedding_norm = (query_embedding / norm).astype(np.float32).reshape(1, -1)
         distances, indices = self.index.search(query_embedding_norm, top_k)
+        
         results = []
         if indices.size > 0:
             for i, idx_val in enumerate(indices[0]):
                 if idx_val != -1 and idx_val < len(self.metadata):
-                     results.append({"metadata": self.metadata[idx_val], "similarity": float(distances[0][i])})
+                     similarity_score = 1 - (distances[0][i]**2) / 2
+                     results.append({"metadata": self.metadata[idx_val], "similarity": float(similarity_score)})
         return results
 
 class APIQueryAgent:
     SIMILARITY_THRESHOLD = 0.45
     def __init__(self, faiss_index: FAISSIndex, sentence_model): self.model = sentence_model; self.faiss_index = faiss_index
-    def get_embedding(self, text: str) -> np.ndarray: return self.model.encode(text, normalize_embeddings=False)
+    def get_embedding(self, text: str) -> np.ndarray: return self.model.encode(text, normalize_embeddings=True)
     def search_dataset(self, query: str, top_k: int = 3) -> Optional[List[Dict[str, Any]]]:
         if not self.faiss_index.is_ready(): return None
         query_embedding = self.get_embedding(query)
@@ -152,10 +171,106 @@ class APIQueryAgent:
 def get_sentence_transformer_model(model_name): return SentenceTransformer(model_name, device='cpu')
 
 def build_and_save_index(target_model_name: str = EMBEDDING_MODEL, index_path_to_save: str = INDEX_FILE, metadata_path_to_save: str = METADATA_FILE):
-    st.header(f"Construyendo Índice FAISS para: {target_model_name}"); sentence_model_instance = get_sentence_transformer_model(target_model_name)
-    agent_for_building = APIQueryAgent(FAISSIndex(index_path_to_save, metadata_path_to_save), sentence_model_instance)
-    st.warning("Función de construcción de índice no implementada completamente.")
+    st.header(f"Construyendo Índice FAISS para: {target_model_name}")
+    
+    try:
+        sentence_model_instance = get_sentence_transformer_model(target_model_name)
+    except Exception as e:
+        st.error(f"Error al cargar el modelo de embeddings: {e}")
+        return
 
+    all_metadata = []
+    all_embeddings_list = []
+    
+    limit = 100
+    start = 0
+    total_datasets = None
+
+    with st.spinner("Obteniendo catálogo de datasets de OpenData Valencia..."):
+        try:
+            initial_response = requests.get(CATALOG_LIST_URL, params={"limit": 1, "offset": 0}, timeout=20)
+            initial_response.raise_for_status()
+            total_datasets = initial_response.json().get('total_count', 0)
+            if total_datasets == 0:
+                st.warning("No se encontraron datasets en el catálogo.")
+                return
+            st.info(f"Se encontraron {total_datasets} datasets. Procediendo a generar embeddings...")
+        except requests.exceptions.RequestException as e:
+            st.error(f"Error crítico al conectar con la API de OpenData Valencia: {e}")
+            return
+
+    progress_bar = st.progress(0.0, "Iniciando proceso...")
+    status_area = st.empty()
+    
+    while start < total_datasets:
+        try:
+            status_area.write(f"Obteniendo página de datasets... offset={start}, limit={limit}")
+            params = {"limit": limit, "offset": start}
+            response = requests.get(CATALOG_LIST_URL, params=params, timeout=30)
+            
+            if response.status_code != 200:
+                status_area.warning(f"Respuesta de la API para offset={start}: Código de estado {response.status_code}. Saltando página.")
+                start += limit
+                continue
+            
+            data = response.json()
+            datasets_page = data.get('datasets', [])
+            
+            if not datasets_page:
+                status_area.warning(f"La página con offset={start} no devolvió datasets. Finalizando bucle.")
+                break
+
+            texts_for_page = []
+            metadata_for_page = []
+            
+            for dataset_info in datasets_page:
+                dataset = dataset_info.get('dataset', {})
+                dataset_id = dataset.get('dataset_id', '')
+                meta = dataset.get('metas', {}).get('default', {})
+                title = meta.get('title', 'Sin título')
+                description_html = meta.get('description', '')
+                description = BeautifulSoup(description_html, "html.parser").get_text().strip() if description_html else ""
+
+                texts_for_page.append(f"título: {title}; descripción: {description}")
+                metadata_for_page.append({"id": dataset_id, "title": title, "description": description})
+
+            if texts_for_page:
+                page_embeddings = sentence_model_instance.encode(texts_for_page, normalize_embeddings=True, show_progress_bar=False)
+                all_embeddings_list.extend(page_embeddings)
+                all_metadata.extend(metadata_for_page)
+            
+            start += len(datasets_page)
+            progress_bar.progress(min(start / total_datasets, 1.0), text=f"Procesados {start}/{total_datasets} datasets")
+
+        except requests.exceptions.RequestException as e:
+            st.error(f"Error de red en offset {start}. Deteniendo... Error: {e}")
+            break
+        except Exception as e:
+            st.error(f"Ocurrió un error inesperado en offset {start}: {e}")
+            break
+            
+    if not all_embeddings_list:
+        st.error("No se pudieron generar embeddings. El proceso ha fallado. Revisa los mensajes de estado de la API.")
+        return
+
+    progress_bar.empty()
+    status_area.empty()
+
+    with st.spinner(f"Construyendo y guardando el índice FAISS en {index_path_to_save}..."):
+        embeddings_np = np.array(all_embeddings_list).astype('float32')
+        d = embeddings_np.shape[1]
+        index = faiss.IndexFlatL2(d)
+        index.add(embeddings_np)
+        
+        faiss.write_index(index, index_path_to_save)
+        
+        with open(metadata_path_to_save, 'w', encoding='utf-8') as f:
+            json.dump(all_metadata, f, ensure_ascii=False, indent=2)
+
+    st.success(f"¡Índice FAISS con {index.ntotal} vectores construido y guardado con éxito!")
+    st.balloons()
+    st.info("La página se recargará para usar el nuevo índice.")
+    st.rerun()
 
 class DatasetLoader:
     @staticmethod
@@ -178,31 +293,49 @@ class DatasetAnalyzer:
         analysis = {"numeric": [], "categorical": [], "temporal": [], "geospatial": [], "other": [], "stats": None, "value_counts": {}, "temporal_range": {}}
         keywords = {'temp': ['fecha', 'date', 'año', 'ano', 'year', 'time'], 'geo': ['geo', 'lat', 'lon', 'coord', 'wkt', 'point', 'shape']}
         df_copy = df.copy(); lat_col, lon_col = 'latitude', 'longitude'
+    
+        # Pre-procesamiento
         for col in df_copy.columns:
             if df_copy[col].dtype == 'object':
                 try: df_copy[col] = pd.to_numeric(df_copy[col].str.replace(',', '.', regex=False).str.strip())
-                except: pass
+                except (ValueError, AttributeError): pass
             if any(k in col.lower() for k in keywords['temp']) or pd.api.types.is_datetime64_any_dtype(df_copy[col].dtype):
                 try:
                     orig_nn = df_copy[col].notna().sum()
                     if orig_nn == 0: continue
                     conv_df = pd.to_datetime(df_copy[col], errors='coerce', dayfirst=True)
                     if (conv_df.notna().sum() / orig_nn) > 0.5: df_copy[col] = conv_df
-                except: pass
+                except Exception: pass
+    
+        # Análisis de columnas
         for col in df_copy.columns:
             dtype = df_copy[col].dtype; cl = col.lower(); is_geo = False
+            
+            # <<< LÓGICA GEO REFORZADA >>>
             if any(k in cl for k in ['geo_point_2d', 'geopoint', 'geo_shape']):
                 analysis["geospatial"].append(col); is_geo = True
                 try:
-                    coords = df_copy[col].str.split(',', expand=True)
-                    df[lat_col], df[lon_col] = pd.to_numeric(coords[0], errors='coerce'), pd.to_numeric(coords[1], errors='coerce')
-                    if lat_col not in analysis["numeric"]: analysis["numeric"].append(lat_col); analysis["geospatial"].append(lat_col)
-                    if lon_col not in analysis["numeric"]: analysis["numeric"].append(lon_col); analysis["geospatial"].append(lon_col)
-                except: pass
+                    # Asegurarse de que es una columna de strings antes de usar .str
+                    if pd.api.types.is_string_dtype(df_copy[col]):
+                        coords = df_copy[col].str.split(',', expand=True)
+                        if coords.shape[1] >= 2: # Comprobar que la división produjo al menos 2 columnas
+                            df[lat_col] = pd.to_numeric(coords[0], errors='coerce')
+                            df[lon_col] = pd.to_numeric(coords[1], errors='coerce')
+                            # Añadir las nuevas columnas al análisis si no están ya
+                            if lat_col not in analysis["numeric"]: analysis["numeric"].append(lat_col)
+                            if lon_col not in analysis["numeric"]: analysis["numeric"].append(lon_col)
+                            if lat_col not in analysis["geospatial"]: analysis["geospatial"].append(lat_col)
+                            if lon_col not in analysis["geospatial"]: analysis["geospatial"].append(lon_col)
+                except Exception as e:
+                    logging.warning(f"No se pudieron extraer coordenadas de la columna '{col}': {e}")
+                    pass
+                
             elif any(k in cl for k in keywords['geo']):
                 if ('latitud' in cl or 'latitude' in cl): analysis["geospatial"].append(col); is_geo=True
                 if ('longitud' in cl or 'longitude' in cl): analysis["geospatial"].append(col); is_geo=True
+            
             if is_geo: continue
+    
             if pd.api.types.is_numeric_dtype(dtype): analysis["numeric"].append(col)
             elif pd.api.types.is_datetime64_any_dtype(dtype): analysis["temporal"].append(col); analysis["temporal_range"][col] = (df_copy[col].min(), df_copy[col].max())
             elif pd.api.types.is_object_dtype(dtype) or pd.api.types.is_string_dtype(dtype):
@@ -211,7 +344,14 @@ class DatasetAnalyzer:
                     try: analysis["value_counts"][col] = df_copy[col].value_counts().to_dict()
                     except: pass
             else: analysis["other"].append(col)
-        analysis["stats"] = df_copy.describe(include='all').to_dict(); return analysis
+                
+        try:
+            analysis["stats"] = df_copy.describe(include='all').to_dict()
+        except Exception as e:
+            logging.error(f"Error al generar describe(): {e}")
+            analysis["stats"] = {}
+            
+        return analysis
 
 class LLMVisualizerPlanner:
     def suggest_visualizations(self, df_sample: pd.DataFrame, query: str, analysis: Dict) -> List[Dict]:
@@ -359,13 +499,10 @@ def validate_dataset_relevance(query: str, dataset_title: str, dataset_descripti
 @st.cache_resource
 def get_faiss_index_instance():
     instance = FAISSIndex()
-    if hasattr(st, 'sidebar') and instance.is_ready():
-        try: st.sidebar.success(f"Índice FAISS listo.")
-        except: pass
+    # Mover el mensaje de éxito/error a la función main para mejor control del flujo
     return instance
 
 def run_visualization_pipeline(user_query: str, df: pd.DataFrame, analysis: Dict, dataset_title: str):
-    """Genera y muestra las visualizaciones e insights para una consulta."""
     active_llm_provider = st.session_state.get("current_llm_provider", "gemini")
     st.subheader(f"Analizando consulta (LLM: {active_llm_provider.upper()}): \"{user_query}\"")
     with st.spinner(f"Generando visualizaciones con {active_llm_provider.upper()}..."):
@@ -403,7 +540,6 @@ def run_visualization_pipeline(user_query: str, df: pd.DataFrame, analysis: Dict
 
 
 def main():
-    """Función principal que organiza la aplicación de Streamlit."""
     st.set_page_config(layout="wide", page_title="Analista Datos Valencia")
 
     if "current_llm_provider" not in st.session_state: st.session_state.current_llm_provider = "gemini"
@@ -421,12 +557,15 @@ def main():
     with col2:
         available_llms = [llm for llm, client in [("gemini", gemini_model), ("llama3", groq_client)] if client]
         if available_llms:
-            st.session_state.current_llm_provider = st.radio("Selecciona LLM:", options=available_llms, horizontal=True)
+            st.session_state.current_llm_provider = st.radio("Selecciona LLM:", options=available_llms, horizontal=True, key="llm_selector")
         else:
             st.error("Ningún LLM configurado. Verifica API Keys.")
             st.stop()
     
     st.sidebar.header("Acciones del Índice")
+    if faiss_index_global.is_ready():
+        st.sidebar.success(f"Índice FAISS listo ({faiss_index_global.index.ntotal} vectores).")
+    
     if st.sidebar.button("Construir/actualizar Índice FAISS"):
         build_and_save_index()
 
@@ -440,11 +579,13 @@ def main():
 
 
 def display_initial_view(faiss_index, sentence_model):
-    """Muestra la interfaz inicial para empezar una nueva búsqueda."""
     st.markdown('Bienvenido al asistente para explorar [Datos Abiertos del Ayuntamiento de Valencia](https://valencia.opendatasoft.com/pages/home/?flg=es-es).')
-    st.markdown("##### ¿No sabes qué preguntar? Prueba con esto:")
     
-    ## CAMBIO: Se actualiza la lista de ejemplos por unos más relevantes y variados.
+    if not faiss_index.is_ready():
+        st.warning("El índice de búsqueda no está listo. Por favor, constrúyelo desde el menú de la izquierda para poder analizar consultas.")
+        return
+
+    st.markdown("##### ¿No sabes qué preguntar? Prueba con esto:")
     examples = [
         "Aparcamientos para bicis", 
         "Intensidad del tráfico en Valencia", 
@@ -464,46 +605,44 @@ def display_initial_view(faiss_index, sentence_model):
 
     if st.button("Analizar Consulta", type="primary"):
         if user_query_input:
-            if faiss_index.is_ready():
-                api_agent = APIQueryAgent(faiss_index, sentence_model)
-                with st.spinner("Buscando y validando datasets..."):
-                    search_results = api_agent.search_dataset(user_query_input, top_k=5)
-                    valid_candidates = []
-                    if search_results:
-                        for result in search_results:
-                            if result['similarity'] > api_agent.SIMILARITY_THRESHOLD and validate_dataset_relevance(user_query_input, result["metadata"]["title"], result["metadata"]["description"]):
-                                valid_candidates.append(result)
-                
-                if not valid_candidates:
-                    st.error("No se encontró ningún dataset relevante.")
-                    return
+            api_agent = APIQueryAgent(faiss_index, sentence_model)
+            with st.spinner("Buscando y validando datasets..."):
+                search_results = api_agent.search_dataset(user_query_input, top_k=5)
+                valid_candidates = []
+                if search_results:
+                    for result in search_results:
+                        if result['similarity'] > api_agent.SIMILARITY_THRESHOLD and validate_dataset_relevance(user_query_input, result["metadata"]["title"], result["metadata"]["description"]):
+                            valid_candidates.append(result)
+            
+            if not valid_candidates:
+                st.error("No se encontró ningún dataset relevante para tu consulta. Intenta ser más específico o prueba con otra pregunta.")
+                if search_results:
+                    with st.expander("Resultados de búsqueda con baja relevancia (para depuración):"):
+                        st.json([{"title": r['metadata']['title'], "similarity": r['similarity']} for r in search_results])
+                return
 
-                selected_dataset_info = valid_candidates[0]
-                dataset_id = selected_dataset_info["metadata"]["id"]
-                dataset_title = selected_dataset_info["metadata"]["title"]
+            selected_dataset_info = sorted(valid_candidates, key=lambda x: x['similarity'], reverse=True)[0]
+            dataset_id = selected_dataset_info["metadata"]["id"]
+            dataset_title = selected_dataset_info["metadata"]["title"]
 
-                with st.spinner(f"Descargando y analizando '{dataset_title}'..."):
-                    dataset_bytes = api_agent.export_dataset(dataset_id)
-                    if not dataset_bytes: st.error(f"Fallo descarga."); return
-                    df = DatasetLoader.load_dataset_from_bytes(dataset_bytes, dataset_title)
-                    if df is None or df.empty: st.error(f"Dataset vacío/no cargado."); return
-                    analysis = DatasetAnalyzer().analyze(df)
-                
-                st.session_state.active_df = df
-                st.session_state.active_analysis = analysis
-                st.session_state.active_dataset_title = dataset_title
-                st.session_state.last_query = user_query_input
-                st.session_state.run_initial_analysis = True 
-                st.rerun()
-
-            else:
-                st.error("Índice FAISS no listo. Constrúyelo primero.")
+            with st.spinner(f"Descargando y analizando '{dataset_title}'..."):
+                dataset_bytes = api_agent.export_dataset(dataset_id)
+                if not dataset_bytes: st.error(f"Fallo en la descarga del dataset '{dataset_title}'."); return
+                df = DatasetLoader.load_dataset_from_bytes(dataset_bytes, dataset_title)
+                if df is None or df.empty: st.error(f"El dataset '{dataset_title}' está vacío o no se pudo cargar."); return
+                analysis = DatasetAnalyzer().analyze(df)
+            
+            st.session_state.active_df = df
+            st.session_state.active_analysis = analysis
+            st.session_state.active_dataset_title = dataset_title
+            st.session_state.last_query = user_query_input
+            st.session_state.run_initial_analysis = True 
+            st.rerun()
         else:
             st.warning("Por favor, introduce una consulta.")
 
 
 def display_conversation_view():
-    """Muestra la interfaz de conversación una vez que hay un dataset activo."""
     st.success(f"Dataset activo: **{st.session_state.active_dataset_title}**")
     csv_data = st.session_state.active_df.to_csv(index=False, sep=';').encode('utf-8')
     st.download_button(label="📥 Descargar Dataset (CSV)", data=csv_data, file_name=f"{sanitize_filename(st.session_state.active_dataset_title)}.csv")
@@ -523,7 +662,8 @@ def display_conversation_view():
             st.warning("Introduce una consulta de seguimiento.")
     
     if col_reset.button("Finalizar y empezar de nuevo"):
-        for key in list(st.session_state.keys()):
+        keys_to_delete = [k for k in st.session_state.keys() if k not in ['current_llm_provider']]
+        for key in keys_to_delete:
             del st.session_state[key]
         st.rerun()
 
