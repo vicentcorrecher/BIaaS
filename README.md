@@ -112,16 +112,3 @@ Mejorar la gestión de memoria para datasets muy grandes.
 Agradecimientos
 A OpenData València por proporcionar los datos.
 A las comunidades de Streamlit, Hugging Face y FAISS.
-
-
-Una vez que tengas este fichero `README.md` guardado en tu carpeta de proyecto, solo tienes que subirlo a GitHub con estos comandos:
-
-
-# Añade el nuevo README.md (y cualquier otro cambio)
-git add README.md
-
-# Guarda los cambios con un mensaje descriptivo
-git commit -m "docs: Add professional README file"
-
-# Sube los cambios a tu repositorio en GitHub
-git push origin main
